@@ -1,4 +1,18 @@
 {
-  "posted_deals": [],
-  "posted_news": []
+  "posted_deals": [
+    "steam:311210",
+    "steam:1326470",
+    "steam:3240220",
+    "epic:b8cc76ce7d6645f0a282b843a072cc78",
+    "steam:2183900"
+  ],
+  "posted_news": [
+    "news:https://www.rockpapershotgun.com/the-first-big-crimson-desert-dlc-arrives-in-october-seems-to-be-set-in-a-crimson-desert-beyond-crimson-deserts-existing-crimson-desert",
+    "news:https://www.rockpapershotgun.com/onimusha-way-of-the-sword-is-best-when-its-silly-and-despite-some-gloomy-open-world-slogging-sometimes-even-remembers-it",
+    "news:https://www.pcgamer.com/gaming-industry/game-development/a-multi-month-delay-for-deus-ex-turned-into-a-huge-payoff-for-one-of-its-best-characters-says-designer-harvey-smith/",
+    "news:https://www.rockpapershotgun.com/final-fantasy-7-revelations-release-date-puts-an-end-to-the-remake-trilogy-in-sight-and-then-pushes-that-end-a-bit-further-away-with-sephiroth-and-vincent-dlc",
+    "news:https://www.pcgamer.com/hardware/gaming-laptops/owner-of-nearly-decade-old-dell-laptop-reportedly-wore-through-the-wrist-rest-and-is-being-stabbed-by-carbon-fibers/",
+    "news:https://www.rockpapershotgun.com/experiencing-some-day-one-blood-of-dawnwalker-issues-its-devs-know-and-have-some-temporary-solutions-to-help-get-you-bloodsucking",
+    "news:https://www.rockpapershotgun.com/while-us-lot-in-the-west-might-like-dragons-dogma-2s-friction-japan-doesnt-quite-agree-and-its-producers-say-balancing-that-has-been-a-real-challenge"
+  ]
 }
