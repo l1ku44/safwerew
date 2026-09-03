@@ -20,7 +20,7 @@ from sources import steam, epic, gog, news
 
 # ==================== НАСТРОЙКИ ====================
 # Минимальный процент скидки, начиная с которого игра попадает в канал.
-MIN_DISCOUNT_STEAM = 50
+MIN_DISCOUNT_STEAM = 10
 MIN_DISCOUNT_GOG = 50
 
 # Регион и валюта для Steam / GOG. Примеры: ("us", "USD"), ("de", "EUR"), ("ru", "RUB").
