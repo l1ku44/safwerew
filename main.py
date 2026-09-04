@@ -30,13 +30,13 @@ from sources import steam, epic, gog, news
 CURRENCIES = ("USD", "RUB", "KZT", "UAH", "BYN")
 
 # Минимальный процент скидки, начиная с которого игра вообще попадает в канал.
-MIN_DISCOUNT_STEAM = 50
+MIN_DISCOUNT_STEAM = 20
 MIN_DISCOUNT_GOG = 50
-MIN_DISCOUNT_EPIC = 50
+MIN_DISCOUNT_EPIC = 30
 
 # Скидки от этого процента считаются "горячими" (🔥) и публикуются
 # практически сразу, а не по обычному расписанию тира "deal".
-HOT_DISCOUNT_THRESHOLD = 75
+HOT_DISCOUNT_THRESHOLD = 70
 
 # От скольких новых скидок ОДНОГО издателя на ОДНОЙ платформе за один
 # запуск делать один общий пост вместо отдельного поста на каждую игру.
@@ -49,7 +49,7 @@ BUNDLE_MIN_COUNT = 4
 TIER_INTERVAL_SECONDS = {
     "hot": 0,
     "deal": 12 * 60,
-    "news": 45 * 60,
+    "news": 60 * 60,
 }
 
 # Сколько сообщений максимум отправлять за один запуск (страховка на случай,
@@ -58,7 +58,7 @@ MAX_POSTS_PER_RUN = 10
 
 # Пауза между отправками сообщений подряд, в секундах (чтобы не упереться
 # в лимиты Telegram).
-DELAY_BETWEEN_POSTS = 3
+DELAY_BETWEEN_POSTS = 30
 # =====================================================
 
 
