@@ -1,8 +1,165 @@
 {
-  "posted_deals": [],
-  "posted_news": [],
-  "queue": [],
-  "queued_ids": [],
-  "last_published": {},
-  "known_game_titles": []
+  "posted_deals": [
+    "epic:b8cc76ce7d6645f0a282b843a072cc78",
+    "steam:3240220",
+    "steam:311210",
+    "steam:2183900"
+  ],
+  "posted_news": [
+    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll"
+  ],
+  "queue": [
+    {
+      "id": "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
+      "tier": "news",
+      "text": "📰 Обзор Moonlighter 2: The Endless Vault – приятный рост числа, который наиболее примечательно тем, насколько он улучшен\nИсточник: Rock Paper Shotgun\nhttps://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is"
+      ],
+      "added_at": "2026-09-04T18:24:02.713450+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+      "tier": "news",
+      "text": "📰 Игра в RPG Exodus, вдохновленная Mass Effect, была неприятно знакомым космическим путешествием, несмотря на несколько блестящих боев в невесомости.\nИсточник: Rock Paper Shotgun\nhttps://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights"
+      ],
+      "added_at": "2026-09-04T18:24:02.713458+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
+      "tier": "news",
+      "text": "📰 Бывший инди-босс PlayStation Шухей Ёсида и основатель TIGSource устраивают джем Game Poem, который «бросает вызов традиционным границам между формами искусства».\nИсточник: Rock Paper Shotgun\nhttps://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms"
+      ],
+      "added_at": "2026-09-04T18:24:02.713463+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/lego-skylines-devs-want-your-citys-problems-to-be-visible-without-digging-into-a-stats-screen-which-means-finding-a-family-friendly-version-of-showing-homelessness",
+      "tier": "news",
+      "text": "📰 Разработчики Lego Skylines хотят, чтобы проблемы вашего города были видны без необходимости копаться в экране статистики, что означает поиск «семейной» версии показа бездомности.\nИсточник: Rock Paper Shotgun\nhttps://www.rockpapershotgun.com/lego-skylines-devs-want-your-citys-problems-to-be-visible-without-digging-into-a-stats-screen-which-means-finding-a-family-friendly-version-of-showing-homelessness",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/lego-skylines-devs-want-your-citys-problems-to-be-visible-without-digging-into-a-stats-screen-which-means-finding-a-family-friendly-version-of-showing-homelessness"
+      ],
+      "added_at": "2026-09-04T18:24:02.713468+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-endings/",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PC Gamer\nhttps://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-endings/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-endings/"
+      ],
+      "added_at": "2026-09-04T18:24:02.713472+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/grand-theft-auto/i-have-filled-gta-5-with-realistic-los-angeles-snow/",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PC Gamer\nhttps://www.pcgamer.com/games/grand-theft-auto/i-have-filled-gta-5-with-realistic-los-angeles-snow/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/grand-theft-auto/i-have-filled-gta-5-with-realistic-los-angeles-snow/"
+      ],
+      "added_at": "2026-09-04T18:24:02.713476+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/third-person-shooter/a-popular-streamer-turned-down-a-6-figure-deal-to-play-arc-raiders-because-the-game-frustrated-me-so-much/",
+      "tier": "news",
+      "text": "📰 Популярный стример отказался от шестизначной сделки на участие в Arc Raiders, потому что «игра меня очень расстроила»\nИсточник: PC Gamer\nhttps://www.pcgamer.com/games/third-person-shooter/a-popular-streamer-turned-down-a-6-figure-deal-to-play-arc-raiders-because-the-game-frustrated-me-so-much/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/third-person-shooter/a-popular-streamer-turned-down-a-6-figure-deal-to-play-arc-raiders-because-the-game-frustrated-me-so-much/"
+      ],
+      "added_at": "2026-09-04T18:24:02.713479+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/movies-tv/d-and-d-is-getting-a-netflix-series-about-strahd-involving-the-director-of-the-prisoner-of-azkaban-and-i-honestly-think-this-could-work-great/",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PC Gamer\nhttps://www.pcgamer.com/movies-tv/d-and-d-is-getting-a-netflix-series-about-strahd-involving-the-director-of-the-prisoner-of-azkaban-and-i-honestly-think-this-could-work-great/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/movies-tv/d-and-d-is-getting-a-netflix-series-about-strahd-involving-the-director-of-the-prisoner-of-azkaban-and-i-honestly-think-this-could-work-great/"
+      ],
+      "added_at": "2026-09-04T18:24:02.713482+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/hardware/motherboards/great-now-motherboard-prices-might-be-next-to-spike-thanks-to-component-costs-increasing-by-up-to-50-percent/",
+      "tier": "news",
+      "text": "📰 Отлично, теперь цены на материнские платы могут резко вырасти из-за увеличения стоимости компонентов почти на 50 %.\nИсточник: PC Gamer\nhttps://www.pcgamer.com/hardware/motherboards/great-now-motherboard-prices-might-be-next-to-spike-thanks-to-component-costs-increasing-by-up-to-50-percent/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/hardware/motherboards/great-now-motherboard-prices-might-be-next-to-spike-thanks-to-component-costs-increasing-by-up-to-50-percent/"
+      ],
+      "added_at": "2026-09-04T18:24:02.713485+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
+      "tier": "news",
+      "text": "📰 Nvidia подтверждает, что ее AI-фильтр DLSS 5 не будет ограничен только графическими процессорами RTX 50\nИсточник: PCGamesN\nhttps://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support"
+      ],
+      "added_at": "2026-09-04T18:24:02.713489+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PCGamesN\nhttps://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin"
+      ],
+      "added_at": "2026-09-04T18:24:02.713492+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PCGamesN\nhttps://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview"
+      ],
+      "added_at": "2026-09-04T18:24:02.713495+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/league-of-legends/classic-patch-3-new-champions",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PCGamesN\nhttps://www.pcgamesn.com/league-of-legends/classic-patch-3-new-champions",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/league-of-legends/classic-patch-3-new-champions"
+      ],
+      "added_at": "2026-09-04T18:24:02.713499+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/stranger-than-heaven/tupac-likness-ai-use-interview",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PCGamesN\nhttps://www.pcgamesn.com/stranger-than-heaven/tupac-likness-ai-use-interview",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/stranger-than-heaven/tupac-likness-ai-use-interview"
+      ],
+      "added_at": "2026-09-04T18:24:02.713502+00:00"
+    }
+  ],
+  "queued_ids": [
+    "news:https://www.pcgamesn.com/stranger-than-heaven/tupac-likness-ai-use-interview",
+    "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-endings/",
+    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+    "news:https://www.pcgamer.com/games/grand-theft-auto/i-have-filled-gta-5-with-realistic-los-angeles-snow/",
+    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+    "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
+    "news:https://www.pcgamer.com/movies-tv/d-and-d-is-getting-a-netflix-series-about-strahd-involving-the-director-of-the-prisoner-of-azkaban-and-i-honestly-think-this-could-work-great/",
+    "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
+    "news:https://www.pcgamer.com/hardware/motherboards/great-now-motherboard-prices-might-be-next-to-spike-thanks-to-component-costs-increasing-by-up-to-50-percent/",
+    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
+    "news:https://www.rockpapershotgun.com/lego-skylines-devs-want-your-citys-problems-to-be-visible-without-digging-into-a-stats-screen-which-means-finding-a-family-friendly-version-of-showing-homelessness",
+    "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+    "news:https://www.pcgamer.com/games/third-person-shooter/a-popular-streamer-turned-down-a-6-figure-deal-to-play-arc-raiders-because-the-game-frustrated-me-so-much/",
+    "news:https://www.pcgamesn.com/league-of-legends/classic-patch-3-new-champions"
+  ],
+  "last_published": {
+    "hot": "2026-09-04T18:24:17.100000+00:00",
+    "deal": "2026-09-04T18:24:06.771434+00:00",
+    "news": "2026-09-04T18:24:10.209842+00:00"
+  },
+  "known_game_titles": [
+    "Call of Duty®: Black Ops III",
+    "Warhammer 40,000: Space Marine 2",
+    "Grand Theft Auto V Enhanced"
+  ]
 }
