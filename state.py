@@ -1,11 +1,13 @@
 """
-Хранение состояния между запусками: что уже было опубликовано в канал,
-чтобы не постить одно и то же дважды.
+Хранение состояния между запусками: что уже опубликовано, что сейчас
+стоит в очереди на публикацию, когда последний раз публиковали каждый
+тип материала, и список уже известных боту названий игр (нужен для
+защиты названий при переводе новостей).
 
 Состояние лежит в файле state.json прямо в репозитории. После каждого
 запуска GitHub Actions коммитит обновлённый файл обратно в репозиторий
-(это настроено в .github/workflows/bot.yml) — так данные не теряются
-между запусками, хотя сам раннер GitHub Actions каждый раз "чистый".
+(см. .github/workflows/bot.yml) — так данные не теряются между запусками,
+хотя сам раннер GitHub Actions каждый раз "чистый".
 """
 
 import json
@@ -13,30 +15,55 @@ import os
 
 STATE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.json")
 
-# Сколько последних ID хранить в каждом списке. Чем больше — тем меньше
-# риск случайно повторить старый пост, но файл будет чуть тяжелее.
-MAX_ITEMS_PER_LIST = 2000
+# Сколько последних записей хранить в каждом списке.
+MAX_POSTED_ITEMS = 3000
+MAX_KNOWN_TITLES = 500
+
+DEFAULT_STATE = {
+    "posted_deals": [],
+    "posted_news": [],
+    "queue": [],
+    "queued_ids": [],
+    "last_published": {},        # {"hot": "2026-...", "deal": "...", "news": "..."}
+    "known_game_titles": [],     # для защиты названий игр при переводе новостей
+}
 
 
 def load_state() -> dict:
     if not os.path.exists(STATE_PATH):
-        return {"posted_deals": [], "posted_news": []}
+        return {k: (v.copy() if isinstance(v, (list, dict)) else v) for k, v in DEFAULT_STATE.items()}
+
     try:
         with open(STATE_PATH, "r", encoding="utf-8") as f:
             data = json.load(f)
     except (json.JSONDecodeError, OSError) as e:
         print(f"[state] Не удалось прочитать state.json ({e}), начинаю с чистого состояния")
-        return {"posted_deals": [], "posted_news": []}
+        data = {}
 
-    data.setdefault("posted_deals", [])
-    data.setdefault("posted_news", [])
+    for key, default in DEFAULT_STATE.items():
+        if key not in data:
+            data[key] = default.copy() if isinstance(default, (list, dict)) else default
+
     return data
 
 
 def save_state(state: dict) -> None:
     trimmed = {
-        "posted_deals": list(state.get("posted_deals", []))[-MAX_ITEMS_PER_LIST:],
-        "posted_news": list(state.get("posted_news", []))[-MAX_ITEMS_PER_LIST:],
+        "posted_deals": list(state.get("posted_deals", []))[-MAX_POSTED_ITEMS:],
+        "posted_news": list(state.get("posted_news", []))[-MAX_POSTED_ITEMS:],
+        "queue": list(state.get("queue", [])),
+        "queued_ids": list(state.get("queued_ids", [])),
+        "last_published": dict(state.get("last_published", {})),
+        "known_game_titles": list(state.get("known_game_titles", []))[-MAX_KNOWN_TITLES:],
     }
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(trimmed, f, ensure_ascii=False, indent=2)
+
+
+def remember_game_title(state: dict, title: str) -> None:
+    """Добавляет название игры в список известных (используется при переводе новостей)."""
+    if not title:
+        return
+    titles = state.setdefault("known_game_titles", [])
+    if title not in titles:
+        titles.append(title)

@@ -1,13 +1,13 @@
 """
 Новости об играх (в том числе анонсы новинок) из RSS-фидов игровых
-изданий. RSS — открытый стандарт, такой источник не может "сломаться"
-так же внезапно, как неофициальные API магазинов.
+изданий, переведённые на русский язык.
 
 Список фидов и ключевые слова можно свободно менять ниже, без изменения
 остального кода.
 """
 
 import feedparser
+import translate
 
 # (Название источника для подписи в посте, ссылка на RSS-фид)
 FEEDS = [
@@ -19,14 +19,15 @@ FEEDS = [
 # Если список пуст — публикуются вообще все новости из фидов выше.
 # Если что-то добавить (например ["announce", "release date", "trailer"]),
 # в канал будут попадать только новости, в заголовке которых встречается
-# хотя бы одно из этих слов (без учёта регистра).
+# хотя бы одно из этих слов (без учёта регистра). Фильтр применяется к
+# ОРИГИНАЛЬНОМУ (английскому) заголовку, до перевода.
 REQUIRED_KEYWORDS: list[str] = []
 
 
-def get_news(limit_per_feed: int = 5) -> list[dict]:
+def get_news(limit_per_feed: int = 5, protected_terms: list[str] | None = None) -> list[dict]:
     """
-    Возвращает свежие новости из всех фидов.
-    Каждый элемент: {id, title, source, url}
+    Возвращает свежие новости из всех фидов, с заголовком, переведённым
+    на русский. Каждый элемент: {id, title, title_original, source, url}
     """
     items: list[dict] = []
 
@@ -42,19 +43,22 @@ def get_news(limit_per_feed: int = 5) -> list[dict]:
             continue
 
         for entry in parsed.entries[:limit_per_feed]:
-            title = entry.get("title") or "Без названия"
+            title_original = entry.get("title") or "Без названия"
             link = entry.get("link") or ""
             if not link:
                 continue
 
             if REQUIRED_KEYWORDS:
-                lowered = title.lower()
+                lowered = title_original.lower()
                 if not any(kw.lower() in lowered for kw in REQUIRED_KEYWORDS):
                     continue
 
+            title_ru = translate.to_russian(title_original, extra_protected=protected_terms)
+
             items.append({
                 "id": f"news:{link}",
-                "title": title,
+                "title": title_ru,
+                "title_original": title_original,
                 "source": source_name,
                 "url": link,
             })

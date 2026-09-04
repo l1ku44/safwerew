@@ -1,135 +1,276 @@
 """
 Главный скрипт бота.
 
-Что делает при каждом запуске:
-  1. Проверяет скидки в Steam и GOG, бесплатные игры в Epic Games Store,
-     свежие новости из игровых RSS-фидов.
-  2. Сравнивает найденное со списком уже опубликованного (state.json).
-  3. Публикует в Telegram-канал только то, чего ещё не было.
-  4. Сохраняет обновлённый список опубликованного.
-
-Запускается по расписанию через GitHub Actions (см. .github/workflows/bot.yml).
+Что делает при каждом запуске (запускается часто, каждые несколько минут):
+  1. Проверяет скидки в Steam, GOG и Epic Games Store, бесплатные игры в
+     Epic Games Store, свежие новости из игровых RSS-фидов (переводит их
+     на русский).
+  2. Похожие скидки одного издателя (если их много одновременно) склеивает
+     в один пост вместо потока одинаковых сообщений.
+  3. Кладёт всё новое в очередь публикаций с приоритетом (см. queue_manager.py).
+  4. Публикует из очереди то, для чего уже подошло время — так очень
+     выгодные предложения выходят почти сразу, а обычные скидки и новости
+     публикуются постепенно, не "заливая" подписчиков сразу пачкой постов.
+  5. Сохраняет состояние (что опубликовано, что в очереди, когда что
+     публиковали последний раз).
 """
 
-import html
 import time
+from collections import defaultdict
 
-from state import load_state, save_state
+import formatting
+import queue_manager
+from state import load_state, save_state, remember_game_title
 from telegram_client import send_message
 from sources import steam, epic, gog, news
 
 # ==================== НАСТРОЙКИ ====================
-# Минимальный процент скидки, начиная с которого игра попадает в канал.
-MIN_DISCOUNT_STEAM = 10
+
+# Валюты, которые показываем в постах о скидках (порядок вывода — в currency.py).
+CURRENCIES = ("USD", "RUB", "KZT", "UAH", "BYN")
+
+# Минимальный процент скидки, начиная с которого игра вообще попадает в канал.
+MIN_DISCOUNT_STEAM = 50
 MIN_DISCOUNT_GOG = 50
+MIN_DISCOUNT_EPIC = 50
 
-# Регион и валюта для Steam / GOG. Примеры: ("us", "USD"), ("de", "EUR"), ("ru", "RUB").
-STEAM_COUNTRY, STEAM_LANG = "us", "english"
-GOG_COUNTRY, GOG_CURRENCY = "US", "USD"
+# Скидки от этого процента считаются "горячими" (🔥) и публикуются
+# практически сразу, а не по обычному расписанию тира "deal".
+HOT_DISCOUNT_THRESHOLD = 75
 
-# Сколько сообщений максимум отправлять за один запуск (защита от "спам-залпа",
-# если бот не запускался долго и накопилось много нового). Остальное уйдёт
-# в следующие запуски по расписанию.
-MAX_POSTS_PER_RUN = 12
+# От скольких новых скидок ОДНОГО издателя на ОДНОЙ платформе за один
+# запуск делать один общий пост вместо отдельного поста на каждую игру.
+BUNDLE_MIN_COUNT = 4
 
-# Пауза между сообщениями в секундах (чтобы не упереться в лимиты Telegram).
-DELAY_BETWEEN_POSTS = 2
+# Минимальный интервал между публикациями одного тира, в секундах.
+#   hot  — очень крупная скидка (🔥) или бесплатная игра (🆓)
+#   deal — обычная скидка (💰): 10-15 минут
+#   news — обычная игровая новость (📰): 30-60 минут
+TIER_INTERVAL_SECONDS = {
+    "hot": 0,
+    "deal": 12 * 60,
+    "news": 45 * 60,
+}
+
+# Сколько сообщений максимум отправлять за один запуск (страховка на случай,
+# если бот долго не запускался и в очереди накопилось много всего).
+MAX_POSTS_PER_RUN = 10
+
+# Пауза между отправками сообщений подряд, в секундах (чтобы не упереться
+# в лимиты Telegram).
+DELAY_BETWEEN_POSTS = 3
 # =====================================================
 
 
-def format_deal(deal: dict, emoji: str) -> str:
-    title = html.escape(deal["title"])
-    lines = [f"{emoji} <b>{title}</b>"]
+def _tier_for_discount(discount: int) -> str:
+    return "hot" if discount >= HOT_DISCOUNT_THRESHOLD else "deal"
 
-    discount = deal.get("discount")
-    price = deal.get("price")
-    old_price = deal.get("old_price")
-    currency = deal.get("currency") or ""
 
-    if discount is not None and price is not None:
-        if old_price:
-            lines.append(f"Скидка {discount}%: {price} {currency} (было {old_price} {currency})")
+def _already_seen(state: dict, item_id: str) -> bool:
+    posted_list = state.get("posted_news", []) if item_id.startswith("news:") else state.get("posted_deals", [])
+    if item_id in posted_list:
+        return True
+    if item_id in state.get("queued_ids", []):
+        return True
+    return False
+
+
+def gather_deal_items(state: dict) -> list[dict]:
+    """Собирает новые скидки со всех платформ вместе с ценами в нескольких
+    валютах. Уже опубликованные или стоящие в очереди скидки повторно не
+    запрашиваются (не тратим лишние запросы к API магазинов)."""
+    raw_items: list[dict] = []
+
+    # --- Steam ---
+    try:
+        steam_deals = steam.get_deals(min_discount=MIN_DISCOUNT_STEAM)
+    except Exception as e:
+        print(f"[main] Ошибка при получении скидок Steam: {e}")
+        steam_deals = []
+    for d in steam_deals:
+        remember_game_title(state, d["title"])
+    for d in steam_deals:
+        if _already_seen(state, d["id"]):
+            continue
+        try:
+            prices, publisher = steam.get_multi_currency(d["appid"], currencies=CURRENCIES)
+        except Exception as e:
+            print(f"[main] Ошибка при получении цен Steam для «{d['title']}»: {e}")
+            prices, publisher = {}, None
+        raw_items.append({
+            "id": d["id"], "platform": "steam", "title": d["title"],
+            "discount": d["discount"], "url": d["url"],
+            "prices": prices, "publisher": publisher,
+        })
+
+    # --- GOG ---
+    try:
+        gog_deals = gog.get_deals(min_discount=MIN_DISCOUNT_GOG)
+    except Exception as e:
+        print(f"[main] Ошибка при получении скидок GOG: {e}")
+        gog_deals = []
+    for d in gog_deals:
+        remember_game_title(state, d["title"])
+    for d in gog_deals:
+        if _already_seen(state, d["id"]):
+            continue
+        try:
+            prices = gog.get_multi_currency(d["price_id"], currencies=CURRENCIES)
+        except Exception as e:
+            print(f"[main] Ошибка при получении цен GOG для «{d['title']}»: {e}")
+            prices = {}
+        raw_items.append({
+            "id": d["id"], "platform": "gog", "title": d["title"],
+            "discount": d["discount"], "url": d["url"],
+            "prices": prices, "publisher": d.get("publisher"),
+        })
+
+    # --- Epic Games (обычные скидки, не еженедельная бесплатная игра) ---
+    try:
+        epic_deals = epic.get_discounts(min_discount=MIN_DISCOUNT_EPIC)
+    except Exception as e:
+        print(f"[main] Ошибка при получении скидок Epic Games: {e}")
+        epic_deals = []
+    for d in epic_deals:
+        remember_game_title(state, d["title"])
+    for d in epic_deals:
+        if _already_seen(state, d["id"]):
+            continue
+        try:
+            prices = epic.get_multi_currency(d["title"], d.get("raw_id"), currencies=CURRENCIES)
+        except Exception as e:
+            print(f"[main] Ошибка при получении цен Epic Games для «{d['title']}»: {e}")
+            prices = {}
+        raw_items.append({
+            "id": d["id"], "platform": "epic", "title": d["title"],
+            "discount": d["discount"], "url": d["url"],
+            "prices": prices, "publisher": None,
+        })
+
+    return raw_items
+
+
+def bundle_and_classify(raw_items: list[dict]) -> list[dict]:
+    """Группирует похожие скидки одного издателя в один пост, остальное —
+    по отдельности. Возвращает список готовых к очереди записей:
+    {id, tier, text, member_ids}."""
+    groups = defaultdict(list)
+    singles = []
+
+    for it in raw_items:
+        publisher = it.get("publisher")
+        if publisher:
+            groups[(it["platform"], publisher)].append(it)
         else:
-            lines.append(f"Скидка {discount}%: {price} {currency}")
+            singles.append(it)
 
-    lines.append(deal["url"])
-    return "\n".join(lines)
+    queue_items = []
+
+    for (platform, publisher), items in groups.items():
+        if len(items) >= BUNDLE_MIN_COUNT:
+            max_discount = max(i["discount"] for i in items)
+            tier = _tier_for_discount(max_discount)
+            tier_emoji = "🔥" if tier == "hot" else "💰"
+            text = formatting.format_bundle(platform, publisher, items, tier_emoji)
+            member_ids = [i["id"] for i in items]
+            bundle_id = "bundle:" + platform + ":" + publisher + ":" + "-".join(sorted(member_ids))
+            queue_items.append({"id": bundle_id, "tier": tier, "text": text, "member_ids": member_ids})
+        else:
+            singles.extend(items)
+
+    for it in singles:
+        tier = _tier_for_discount(it["discount"])
+        tier_emoji = "🔥" if tier == "hot" else "💰"
+        text = formatting.format_deal(it, tier_emoji)
+        queue_items.append({"id": it["id"], "tier": tier, "text": text, "member_ids": [it["id"]]})
+
+    return queue_items
 
 
-def format_free(deal: dict, emoji: str) -> str:
-    title = html.escape(deal["title"])
-    return f"{emoji} <b>{title}</b>\nСейчас бесплатно!\n{deal['url']}"
+def gather_free_games(state: dict) -> list[dict]:
+    try:
+        free_games = epic.get_free_games()
+    except Exception as e:
+        print(f"[main] Ошибка при получении бесплатных игр Epic Games: {e}")
+        free_games = []
+
+    queue_items = []
+    for g in free_games:
+        if _already_seen(state, g["id"]):
+            continue
+        text = formatting.format_free(g, "epic", end_date_iso=g.get("end_date"))
+        queue_items.append({"id": g["id"], "tier": "hot", "text": text, "member_ids": [g["id"]]})
+    return queue_items
 
 
-def format_news(item: dict) -> str:
-    title = html.escape(item["title"])
-    source = html.escape(item["source"])
-    return f"📰 <b>{title}</b>\nИсточник: {source}\n{item['url']}"
+def gather_news_items(state: dict) -> list[dict]:
+    try:
+        items = news.get_news(protected_terms=state.get("known_game_titles", []))
+    except Exception as e:
+        print(f"[main] Ошибка при получении новостей: {e}")
+        items = []
+
+    queue_items = []
+    for it in items:
+        if _already_seen(state, it["id"]):
+            continue
+        text = formatting.format_news(it)
+        queue_items.append({"id": it["id"], "tier": "news", "text": text, "member_ids": [it["id"]]})
+    return queue_items
 
 
-def collect_new_items(state: dict) -> list[tuple[str, str, str]]:
-    """Возвращает список (тип, id, текст_сообщения) для всего нового."""
-    posted_deals = set(state.get("posted_deals", []))
-    posted_news = set(state.get("posted_news", []))
-
-    to_send: list[tuple[str, str, str]] = []
-
-    for deal in steam.get_deals(country=STEAM_COUNTRY, lang=STEAM_LANG, min_discount=MIN_DISCOUNT_STEAM):
-        if deal["id"] not in posted_deals:
-            to_send.append(("deal", deal["id"], format_deal(deal, "🟦 Steam")))
-
-    for deal in epic.get_free_games():
-        if deal["id"] not in posted_deals:
-            to_send.append(("deal", deal["id"], format_free(deal, "⬛️ Epic Games —")))
-
-    for deal in gog.get_deals(country=GOG_COUNTRY, currency=GOG_CURRENCY, min_discount=MIN_DISCOUNT_GOG):
-        if deal["id"] not in posted_deals:
-            to_send.append(("deal", deal["id"], format_deal(deal, "🟪 GOG")))
-
-    for item in news.get_news():
-        if item["id"] not in posted_news:
-            to_send.append(("news", item["id"], format_news(item)))
-
-    return to_send
+def make_send_fn(state: dict):
+    def send_fn(item: dict) -> bool:
+        ok = send_message(item["text"])
+        if ok:
+            member_ids = item.get("member_ids") or [item["id"]]
+            posted_deals = set(state.get("posted_deals", []))
+            posted_news = set(state.get("posted_news", []))
+            for mid in member_ids:
+                if mid.startswith("news:"):
+                    posted_news.add(mid)
+                else:
+                    posted_deals.add(mid)
+            state["posted_deals"] = list(posted_deals)
+            state["posted_news"] = list(posted_news)
+        return ok
+    return send_fn
 
 
 def main() -> None:
     state = load_state()
-    posted_deals = set(state.get("posted_deals", []))
-    posted_news = set(state.get("posted_news", []))
 
-    to_send = collect_new_items(state)
+    new_queue_items = []
+    new_queue_items.extend(bundle_and_classify(gather_deal_items(state)))
+    new_queue_items.extend(gather_free_games(state))
+    # Новости собираем последними: к этому моменту known_game_titles уже
+    # пополнился названиями из свежих скидок этого запуска — это помогает
+    # переводчику не трогать названия игр в новостных заголовках.
+    new_queue_items.extend(gather_news_items(state))
 
-    if not to_send:
-        print("Новых записей нет — постить нечего.")
-        return
+    added = 0
+    for qi in new_queue_items:
+        if queue_manager.enqueue(state, qi["id"], qi["tier"], qi["text"], member_ids=qi["member_ids"]):
+            added += 1
 
-    print(f"Найдено новых записей: {len(to_send)}")
+    if added:
+        print(f"В очередь добавлено новых записей: {added}")
+    else:
+        print("Новых записей не найдено.")
 
-    sent_count = 0
-    for kind, item_id, text in to_send:
-        if sent_count >= MAX_POSTS_PER_RUN:
-            remaining = len(to_send) - sent_count
-            print(f"Достигнут лимит {MAX_POSTS_PER_RUN} постов за запуск. "
-                  f"Осталось {remaining} — уйдут в следующие запуски.")
-            break
+    sent = queue_manager.process_queue(
+        state,
+        send_fn=make_send_fn(state),
+        tier_intervals=TIER_INTERVAL_SECONDS,
+        max_posts=MAX_POSTS_PER_RUN,
+        delay_between_posts=DELAY_BETWEEN_POSTS,
+        sleep_fn=time.sleep,
+    )
 
-        ok = send_message(text)
-        if ok:
-            if kind == "deal":
-                posted_deals.add(item_id)
-            else:
-                posted_news.add(item_id)
-            sent_count += 1
-            time.sleep(DELAY_BETWEEN_POSTS)
-        else:
-            print(f"Не удалось отправить (пропускаю, попробуем в следующий раз): {item_id}")
+    queue_len = len(state.get("queue", []))
+    print(f"Опубликовано за этот запуск: {sent}. В очереди осталось: {queue_len}.")
 
-    state["posted_deals"] = list(posted_deals)
-    state["posted_news"] = list(posted_news)
     save_state(state)
-
-    print(f"Готово. Отправлено сообщений: {sent_count}")
 
 
 if __name__ == "__main__":
