@@ -1,25 +1,18 @@
 {
   "posted_deals": [
-    "steam:2183900",
     "epic:b8cc76ce7d6645f0a282b843a072cc78",
     "steam:3240220",
+    "steam:108600",
     "steam:1488462",
-    "steam:311210"
+    "steam:311210",
+    "steam:2183900"
   ],
   "posted_news": [
-    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
-    "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is"
+    "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
+    "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll"
   ],
   "queue": [
-    {
-      "id": "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
-      "tier": "news",
-      "text": "📰 Игра в RPG Exodus, вдохновленная Mass Effect, была неприятно знакомым космическим путешествием, несмотря на несколько блестящих боев в невесомости.\nИсточник: Rock Paper Shotgun\nhttps://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
-      "member_ids": [
-        "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights"
-      ],
-      "added_at": "2026-09-04T18:24:02.713458+00:00"
-    },
     {
       "id": "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
       "tier": "news",
@@ -129,15 +122,6 @@
       "added_at": "2026-09-04T18:24:02.713502+00:00"
     },
     {
-      "id": "steam:108600",
-      "tier": "deal",
-      "text": "⚙️ Steam\n💰 Скидка 33% на Project Zomboid\nhttps://store.steampowered.com/app/108600/\n🇺🇸 $16.74 → $24.99\n🇷🇺 703 ₽ → 1 050 ₽\n🇰🇿 4 716 ₸ → 7 040 ₸\n🇺🇦 355 ₴ → 530 ₴\n🇧🇾 8.36 Br → 12.49 Br",
-      "member_ids": [
-        "steam:108600"
-      ],
-      "added_at": "2026-09-04T20:51:05.431186+00:00"
-    },
-    {
       "id": "steam:1623730",
       "tier": "deal",
       "text": "⚙️ Steam\n💰 Скидка 30% на Palworld\nhttps://store.steampowered.com/app/1623730/\n🇺🇸 $20.99 → $29.99\n🇷🇺 770 ₽ → 1 100 ₽\n🇰🇿 5 320 ₸ → 7 600 ₸\n🇺🇦 420 ₴ → 600 ₴\n🇧🇾 10.14 Br → 14.49 Br",
@@ -172,32 +156,70 @@
         "news:https://www.pcgamer.com/hardware/graphics-cards/me-you-can-now-run-dlss-5-on-amd-gpus-my-rx-9070-xt-please-stop-it-hurts-us/"
       ],
       "added_at": "2026-09-04T20:51:05.431207+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
+      "tier": "news",
+      "text": "📰 Отпразднуйте День труда, играя в Civilization 7 бесплатно\nИсточник: PC Gamer\nhttps://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/"
+      ],
+      "added_at": "2026-09-04T22:34:59.735457+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PC Gamer\nhttps://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/"
+      ],
+      "added_at": "2026-09-04T22:34:59.735489+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/gaming-industry/after-a-massive-2021-office-expansion-bungie-is-now-trying-to-sublease-its-211-000-square-foot-headquarters/",
+      "tier": "news",
+      "text": "📰 После масштабного расширения офиса в 2021 году Bungie теперь пытается сдать в субаренду свою штаб-квартиру площадью 211 000 квадратных футов.\nИсточник: PC Gamer\nhttps://www.pcgamer.com/gaming-industry/after-a-massive-2021-office-expansion-bungie-is-now-trying-to-sublease-its-211-000-square-foot-headquarters/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/gaming-industry/after-a-massive-2021-office-expansion-bungie-is-now-trying-to-sublease-its-211-000-square-foot-headquarters/"
+      ],
+      "added_at": "2026-09-04T22:34:59.735494+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/the-white-house-launches-online-arcade-with-its-own-takes-on-tetris-and-other-popular-games-and-its-as-rotten-as-youd-expect/",
+      "tier": "news",
+      "text": "📰 Белый дом запускает онлайн-аркаду со своим собственным подходом к тетрису и другим популярным играм, и она настолько гнилая, как и следовало ожидать.\nИсточник: PC Gamer\nhttps://www.pcgamer.com/games/the-white-house-launches-online-arcade-with-its-own-takes-on-tetris-and-other-popular-games-and-its-as-rotten-as-youd-expect/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/the-white-house-launches-online-arcade-with-its-own-takes-on-tetris-and-other-popular-games-and-its-as-rotten-as-youd-expect/"
+      ],
+      "added_at": "2026-09-04T22:34:59.735497+00:00"
     }
   ],
   "queued_ids": [
-    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
-    "news:https://www.pcgamer.com/hardware/motherboards/great-now-motherboard-prices-might-be-next-to-spike-thanks-to-component-costs-increasing-by-up-to-50-percent/",
-    "steam:3321460",
-    "news:https://www.pcgamer.com/games/grand-theft-auto/i-have-filled-gta-5-with-realistic-los-angeles-snow/",
-    "steam:108600",
-    "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
-    "news:https://www.pcgamer.com/movies-tv/d-and-d-is-getting-a-netflix-series-about-strahd-involving-the-director-of-the-prisoner-of-azkaban-and-i-honestly-think-this-could-work-great/",
-    "news:https://www.rockpapershotgun.com/lego-skylines-devs-want-your-citys-problems-to-be-visible-without-digging-into-a-stats-screen-which-means-finding-a-family-friendly-version-of-showing-homelessness",
-    "news:https://www.pcgamer.com/hardware/graphics-cards/me-you-can-now-run-dlss-5-on-amd-gpus-my-rx-9070-xt-please-stop-it-hurts-us/",
     "steam:1623730",
-    "steam:2406770",
-    "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+    "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
+    "news:https://www.pcgamer.com/hardware/graphics-cards/me-you-can-now-run-dlss-5-on-amd-gpus-my-rx-9070-xt-please-stop-it-hurts-us/",
     "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+    "news:https://www.pcgamer.com/movies-tv/d-and-d-is-getting-a-netflix-series-about-strahd-involving-the-director-of-the-prisoner-of-azkaban-and-i-honestly-think-this-could-work-great/",
+    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+    "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
+    "news:https://www.pcgamesn.com/stranger-than-heaven/tupac-likness-ai-use-interview",
+    "steam:3321460",
+    "news:https://www.rockpapershotgun.com/lego-skylines-devs-want-your-citys-problems-to-be-visible-without-digging-into-a-stats-screen-which-means-finding-a-family-friendly-version-of-showing-homelessness",
+    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
     "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-endings/",
-    "news:https://www.pcgamesn.com/league-of-legends/classic-patch-3-new-champions",
     "news:https://www.pcgamer.com/games/third-person-shooter/a-popular-streamer-turned-down-a-6-figure-deal-to-play-arc-raiders-because-the-game-frustrated-me-so-much/",
+    "news:https://www.pcgamer.com/hardware/motherboards/great-now-motherboard-prices-might-be-next-to-spike-thanks-to-component-costs-increasing-by-up-to-50-percent/",
+    "steam:2406770",
     "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
-    "news:https://www.pcgamesn.com/stranger-than-heaven/tupac-likness-ai-use-interview"
+    "news:https://www.pcgamer.com/games/the-white-house-launches-online-arcade-with-its-own-takes-on-tetris-and-other-popular-games-and-its-as-rotten-as-youd-expect/",
+    "news:https://www.pcgamesn.com/league-of-legends/classic-patch-3-new-champions",
+    "news:https://www.pcgamer.com/gaming-industry/after-a-massive-2021-office-expansion-bungie-is-now-trying-to-sublease-its-211-000-square-foot-headquarters/",
+    "news:https://www.pcgamer.com/games/grand-theft-auto/i-have-filled-gta-5-with-realistic-los-angeles-snow/"
   ],
   "last_published": {
     "hot": "2026-09-04T18:24:17.100000+00:00",
-    "deal": "2026-09-04T20:51:05.967843+00:00",
-    "news": "2026-09-04T20:51:36.323340+00:00"
+    "deal": "2026-09-04T22:35:00.290339+00:00",
+    "news": "2026-09-04T22:35:30.730320+00:00"
   },
   "known_game_titles": [
     "Call of Duty®: Black Ops III",
