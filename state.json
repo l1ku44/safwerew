@@ -1,23 +1,16 @@
 {
   "posted_deals": [
+    "steam:2183900",
     "epic:b8cc76ce7d6645f0a282b843a072cc78",
     "steam:3240220",
-    "steam:311210",
-    "steam:2183900"
+    "steam:1488462",
+    "steam:311210"
   ],
   "posted_news": [
-    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll"
+    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
+    "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is"
   ],
   "queue": [
-    {
-      "id": "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
-      "tier": "news",
-      "text": "📰 Обзор Moonlighter 2: The Endless Vault – приятный рост числа, который наиболее примечательно тем, насколько он улучшен\nИсточник: Rock Paper Shotgun\nhttps://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
-      "member_ids": [
-        "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is"
-      ],
-      "added_at": "2026-09-04T18:24:02.713450+00:00"
-    },
     {
       "id": "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
       "tier": "news",
@@ -134,32 +127,86 @@
         "news:https://www.pcgamesn.com/stranger-than-heaven/tupac-likness-ai-use-interview"
       ],
       "added_at": "2026-09-04T18:24:02.713502+00:00"
+    },
+    {
+      "id": "steam:108600",
+      "tier": "deal",
+      "text": "⚙️ Steam\n💰 Скидка 33% на Project Zomboid\nhttps://store.steampowered.com/app/108600/\n🇺🇸 $16.74 → $24.99\n🇷🇺 703 ₽ → 1 050 ₽\n🇰🇿 4 716 ₸ → 7 040 ₸\n🇺🇦 355 ₴ → 530 ₴\n🇧🇾 8.36 Br → 12.49 Br",
+      "member_ids": [
+        "steam:108600"
+      ],
+      "added_at": "2026-09-04T20:51:05.431186+00:00"
+    },
+    {
+      "id": "steam:1623730",
+      "tier": "deal",
+      "text": "⚙️ Steam\n💰 Скидка 30% на Palworld\nhttps://store.steampowered.com/app/1623730/\n🇺🇸 $20.99 → $29.99\n🇷🇺 770 ₽ → 1 100 ₽\n🇰🇿 5 320 ₸ → 7 600 ₸\n🇺🇦 420 ₴ → 600 ₴\n🇧🇾 10.14 Br → 14.49 Br",
+      "member_ids": [
+        "steam:1623730"
+      ],
+      "added_at": "2026-09-04T20:51:05.431192+00:00"
+    },
+    {
+      "id": "steam:2406770",
+      "tier": "deal",
+      "text": "⚙️ Steam\n💰 Скидка 20% на Bodycam\nhttps://store.steampowered.com/app/2406770/\n🇺🇸 $26.65 → $33.32\n🇷🇺 960 ₽ → 1 200 ₽\n🇰🇿 7 040 ₸ → 8 800 ₸\n🇺🇦 560 ₴ → 700 ₴\n🇧🇾 13.19 Br → 16.49 Br",
+      "member_ids": [
+        "steam:2406770"
+      ],
+      "added_at": "2026-09-04T20:51:05.431196+00:00"
+    },
+    {
+      "id": "steam:3321460",
+      "tier": "deal",
+      "text": "⚙️ Steam\n💰 Скидка 20% на Crimson Desert Enhanced\nhttps://store.steampowered.com/app/3321460/\n🇺🇸 $55.99 → $69.99\n🇷🇺 3 439 ₽ → 4 299 ₽\n🇰🇿 22 399 ₸ → 27 999 ₸\n🇺🇦 1 959 ₴ → 2 449 ₴\n🇧🇾 55.99 Br → 69.99 Br",
+      "member_ids": [
+        "steam:3321460"
+      ],
+      "added_at": "2026-09-04T20:51:05.431201+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/hardware/graphics-cards/me-you-can-now-run-dlss-5-on-amd-gpus-my-rx-9070-xt-please-stop-it-hurts-us/",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PC Gamer\nhttps://www.pcgamer.com/hardware/graphics-cards/me-you-can-now-run-dlss-5-on-amd-gpus-my-rx-9070-xt-please-stop-it-hurts-us/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/hardware/graphics-cards/me-you-can-now-run-dlss-5-on-amd-gpus-my-rx-9070-xt-please-stop-it-hurts-us/"
+      ],
+      "added_at": "2026-09-04T20:51:05.431207+00:00"
     }
   ],
   "queued_ids": [
-    "news:https://www.pcgamesn.com/stranger-than-heaven/tupac-likness-ai-use-interview",
-    "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-endings/",
     "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+    "news:https://www.pcgamer.com/hardware/motherboards/great-now-motherboard-prices-might-be-next-to-spike-thanks-to-component-costs-increasing-by-up-to-50-percent/",
+    "steam:3321460",
     "news:https://www.pcgamer.com/games/grand-theft-auto/i-have-filled-gta-5-with-realistic-los-angeles-snow/",
-    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+    "steam:108600",
     "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
     "news:https://www.pcgamer.com/movies-tv/d-and-d-is-getting-a-netflix-series-about-strahd-involving-the-director-of-the-prisoner-of-azkaban-and-i-honestly-think-this-could-work-great/",
-    "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
-    "news:https://www.pcgamer.com/hardware/motherboards/great-now-motherboard-prices-might-be-next-to-spike-thanks-to-component-costs-increasing-by-up-to-50-percent/",
-    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
     "news:https://www.rockpapershotgun.com/lego-skylines-devs-want-your-citys-problems-to-be-visible-without-digging-into-a-stats-screen-which-means-finding-a-family-friendly-version-of-showing-homelessness",
+    "news:https://www.pcgamer.com/hardware/graphics-cards/me-you-can-now-run-dlss-5-on-amd-gpus-my-rx-9070-xt-please-stop-it-hurts-us/",
+    "steam:1623730",
+    "steam:2406770",
     "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+    "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-endings/",
+    "news:https://www.pcgamesn.com/league-of-legends/classic-patch-3-new-champions",
     "news:https://www.pcgamer.com/games/third-person-shooter/a-popular-streamer-turned-down-a-6-figure-deal-to-play-arc-raiders-because-the-game-frustrated-me-so-much/",
-    "news:https://www.pcgamesn.com/league-of-legends/classic-patch-3-new-champions"
+    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
+    "news:https://www.pcgamesn.com/stranger-than-heaven/tupac-likness-ai-use-interview"
   ],
   "last_published": {
     "hot": "2026-09-04T18:24:17.100000+00:00",
-    "deal": "2026-09-04T18:24:06.771434+00:00",
-    "news": "2026-09-04T18:24:10.209842+00:00"
+    "deal": "2026-09-04T20:51:05.967843+00:00",
+    "news": "2026-09-04T20:51:36.323340+00:00"
   },
   "known_game_titles": [
     "Call of Duty®: Black Ops III",
     "Warhammer 40,000: Space Marine 2",
-    "Grand Theft Auto V Enhanced"
+    "Grand Theft Auto V Enhanced",
+    "Project Zomboid",
+    "Palworld",
+    "Bodycam",
+    "Crimson Desert Enhanced",
+    "007 First Light"
   ]
 }
