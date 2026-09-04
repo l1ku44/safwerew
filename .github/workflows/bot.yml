@@ -2,9 +2,11 @@ name: Game Deals Bot
 
 on:
   schedule:
-    # Запуск каждые 3 часа. Время в UTC.
-    # Изменить частоту можно, поправив это выражение (формат cron).
-    - cron: '0 */3 * * *'
+    # Проверка источников каждые 5 минут (минимально возможный интервал
+    # для GitHub Actions). Само по себе это не значит, что каждые 5 минут
+    # будет пост — публикация ограничена очередью и интервалами по тирам,
+    # см. TIER_INTERVAL_SECONDS в main.py.
+    - cron: '*/5 * * * *'
   workflow_dispatch: {}   # позволяет запускать вручную кнопкой во вкладке Actions
 
 # Нужно, чтобы бот мог сохранить (закоммитить) обновлённый state.json обратно в репозиторий
@@ -14,6 +16,11 @@ permissions:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    # Если предыдущий запуск ещё не закончился (маловероятно, но на всякий
+    # случай) — не запускаем поверх него ещё один.
+    concurrency:
+      group: game-deals-bot
+      cancel-in-progress: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,6 +29,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'   # ускоряет установку зависимостей на повторных запусках
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -37,5 +45,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add state.json
-          git diff --staged --quiet || git commit -m "Обновление списка опубликованного [skip ci]"
+          git diff --staged --quiet || git commit -m "Обновление состояния бота [skip ci]"
           git push
