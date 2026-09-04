@@ -156,7 +156,7 @@ def get_discounts(min_discount: int = 50, count: int = 50) -> list[dict]:
 
     try:
         api = EpicGamesStoreAPI(country="US")
-        result = api.fetch_store_games(count=count, with_price=True)
+        result = api.fetch_store_games(count=count, with_price=True, allow_countries="US")
         elements = _extract_elements(result)
     except Exception as e:
         print(f"[epic] Не удалось получить список скидок: {e}")
@@ -210,7 +210,7 @@ def get_multi_currency(title: str, raw_id: str | None,
             continue
         try:
             api = EpicGamesStoreAPI(country=cc)
-            result = api.fetch_store_games(count=10, keywords=title, with_price=True)
+            result = api.fetch_store_games(count=10, keywords=title, with_price=True, allow_countries=cc)
             elements = _extract_elements(result)
 
             match = None
