@@ -12,6 +12,7 @@
 
 import json
 import os
+from datetime import datetime, timezone
 
 STATE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.json")
 
@@ -29,9 +30,31 @@ DEFAULT_STATE = {
 }
 
 
+def _seed_last_published(data: dict) -> None:
+    """
+    ВАЖНО для корректной работы очереди: если для тира "deal" или "news"
+    ещё ни разу не фиксировалось время последней публикации, выставляем
+    его на "сейчас" вместо того, чтобы оставлять пустым.
+
+    Без этого при самом первом запуске (или после переноса старого
+    state.json без этого поля) первая же попавшаяся скидка и первая же
+    попавшаяся новость публиковались бы сразу и одновременно — ведь
+    сравнивать интервал было бы не с чем, и проверка "прошло ли
+    достаточно времени" пропускалась. Тир "hot" не сеется — он и должен
+    быть мгновенным всегда, это не баг, а расчётное поведение.
+    """
+    now_iso = datetime.now(timezone.utc).isoformat()
+    last_published = data.setdefault("last_published", {})
+    for tier in ("deal", "news"):
+        if tier not in last_published:
+            last_published[tier] = now_iso
+
+
 def load_state() -> dict:
     if not os.path.exists(STATE_PATH):
-        return {k: (v.copy() if isinstance(v, (list, dict)) else v) for k, v in DEFAULT_STATE.items()}
+        data = {k: (v.copy() if isinstance(v, (list, dict)) else v) for k, v in DEFAULT_STATE.items()}
+        _seed_last_published(data)
+        return data
 
     try:
         with open(STATE_PATH, "r", encoding="utf-8") as f:
@@ -44,6 +67,7 @@ def load_state() -> dict:
         if key not in data:
             data[key] = default.copy() if isinstance(default, (list, dict)) else default
 
+    _seed_last_published(data)
     return data
 
 

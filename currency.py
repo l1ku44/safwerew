@@ -53,6 +53,10 @@ def build_price_lines(prices: dict) -> list[str]:
     prices: {"USD": {"current": 11.99, "original": 59.99}, "RUB": {...}, ...}
     Валюты, которых нет в словаре (или где current/original отсутствуют),
     просто пропускаются — как и требуется.
+
+    Порядок: сначала старая (зачёркнутая) цена, потом текущая со скидкой —
+    "было → стало". HTML-тег <s> — зачёркивание, корректно отображается
+    в Telegram, так как сообщения отправляются с parse_mode="HTML".
     """
     lines = []
     for code in CURRENCY_ORDER:
@@ -68,5 +72,5 @@ def build_price_lines(prices: dict) -> list[str]:
             original_str = format_amount(float(original), code)
         except (TypeError, ValueError):
             continue
-        lines.append(f"{FLAGS[code]} {current_str} → {original_str}")
+        lines.append(f"{FLAGS[code]} <s>{original_str}</s> → {current_str}")
     return lines

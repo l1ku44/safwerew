@@ -1,6 +1,15 @@
 """
 Единый шаблон оформления постов: скидки, бесплатные игры, объединённые
 распродажи одного издателя, новости.
+
+Про жирный шрифт и зачёркивание: сообщения отправляются в Telegram с
+parse_mode="HTML" (см. telegram_client.py), поэтому форматирование
+задаётся HTML-тегами <b>...</b> (жирный) и <s>...</s> (зачёркнутый), а не
+"звёздочками" (**) или "тильдами" (~~) — это синтаксис Markdown, и
+Telegram Bot API интерпретирует его только если явно указать
+parse_mode="Markdown"/"MarkdownV2". При HTML-режиме такие символы просто
+показались бы в сообщении как есть, без форматирования. Результат для
+читателя канала выглядит одинаково — жирный текст и зачёркнутая цена.
 """
 
 import html
@@ -31,14 +40,17 @@ def _format_ru_date(iso_str: str | None) -> str | None:
         return None
 
 
-def format_deal(item: dict, tier_emoji: str) -> str:
+def format_deal(item: dict, tier_emoji: str, end_date_iso: str | None = None) -> str:
     meta = PLATFORM_META[item["platform"]]
     title = html.escape(item["title"])
     lines = [
-        f"{meta['emoji']} {meta['name']}",
-        f"{tier_emoji} Скидка {item['discount']}% на {title}",
-        item["url"],
+        f"{meta['emoji']} <b>{meta['name']}</b>",
+        f"{tier_emoji} Скидка {item['discount']}% на <b>{title}</b>",
     ]
+    ru_date = _format_ru_date(end_date_iso)
+    if ru_date:
+        lines.append(f"Скидка действует до {ru_date}")
+    lines.extend(["", item["url"], ""])
     lines.extend(currency.build_price_lines(item.get("prices", {})))
     return "\n".join(lines)
 
@@ -47,8 +59,8 @@ def format_free(item: dict, platform: str, end_date_iso: str | None = None) -> s
     meta = PLATFORM_META[platform]
     title = html.escape(item["title"])
     ru_date = _format_ru_date(end_date_iso)
-    header = f"🆓 Бесплатно до {ru_date} — {title}" if ru_date else f"🆓 Бесплатно — {title}"
-    lines = [f"{meta['emoji']} {meta['name']}", header, item["url"]]
+    header = f"🆓 Бесплатно до {ru_date} — <b>{title}</b>" if ru_date else f"🆓 Бесплатно — <b>{title}</b>"
+    lines = [f"{meta['emoji']} <b>{meta['name']}</b>", header, "", item["url"]]
     return "\n".join(lines)
 
 
@@ -58,12 +70,12 @@ def format_bundle(platform: str, publisher: str, items: list[dict], tier_emoji: 
     publisher_esc = html.escape(publisher)
     max_discount = max(i["discount"] for i in items)
     lines = [
-        f"{tier_emoji} Большая распродажа в {meta['name']}",
+        f"{tier_emoji} Большая распродажа в <b>{meta['name']}</b>",
         f"Скидки до {max_discount}% на игры издателя {publisher_esc}:",
     ]
     sorted_items = sorted(items, key=lambda i: i["discount"], reverse=True)
     for it in sorted_items[:max_games_listed]:
-        lines.append(f"• {html.escape(it['title'])} — −{it['discount']}%")
+        lines.append(f"• <b>{html.escape(it['title'])}</b> — −{it['discount']}%")
     remainder = len(sorted_items) - max_games_listed
     if remainder > 0:
         lines.append(f"…и ещё {remainder} игр")
@@ -73,4 +85,10 @@ def format_bundle(platform: str, publisher: str, items: list[dict], tier_emoji: 
 def format_news(item: dict) -> str:
     title = html.escape(item["title"])
     source = html.escape(item["source"])
-    return f"📰 {title}\nИсточник: {source}\n{item['url']}"
+    lines = [
+        f"📰 {title}",
+        f"Источник: {source}",
+        "",
+        item["url"],
+    ]
+    return "\n".join(lines)

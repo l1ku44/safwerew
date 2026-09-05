@@ -176,6 +176,13 @@ def get_discounts(min_discount: int = 50, count: int = 50) -> list[dict]:
             if discount < min_discount:
                 continue
 
+            end_date = None
+            offer_groups = ((el.get("promotions") or {}).get("promotionalOffers")) or []
+            for group in offer_groups:
+                for offer in group.get("promotionalOffers", []):
+                    if offer.get("endDate"):
+                        end_date = offer.get("endDate")
+
             slug = _extract_slug(el)
             deals.append({
                 "id": f"epic:{el.get('id')}",
@@ -183,6 +190,7 @@ def get_discounts(min_discount: int = 50, count: int = 50) -> list[dict]:
                 "title": el.get("title") or "Без названия",
                 "discount": discount,
                 "url": f"https://store.epicgames.com/en/p/{slug}" if slug else "https://store.epicgames.com/",
+                "end_date": end_date,
             })
         except Exception as e:
             print(f"[epic] Пропускаю игру из-за ошибки разбора: {e}")

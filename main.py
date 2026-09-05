@@ -30,9 +30,9 @@ from sources import steam, epic, gog, news
 CURRENCIES = ("USD", "RUB", "KZT", "UAH", "BYN")
 
 # Минимальный процент скидки, начиная с которого игра вообще попадает в канал.
-MIN_DISCOUNT_STEAM = 20
-MIN_DISCOUNT_GOG = 50
-MIN_DISCOUNT_EPIC = 30
+MIN_DISCOUNT_STEAM = 40
+MIN_DISCOUNT_GOG = 40
+MIN_DISCOUNT_EPIC = 40
 
 # Скидки от этого процента считаются "горячими" (🔥) и публикуются
 # практически сразу, а не по обычному расписанию тира "deal".
@@ -45,11 +45,12 @@ BUNDLE_MIN_COUNT = 4
 # Минимальный интервал между публикациями одного тира, в секундах.
 #   hot  — очень крупная скидка (🔥) или бесплатная игра (🆓)
 #   deal — обычная скидка (💰): 10-15 минут
-#   news — обычная игровая новость (📰): 30-60 минут
+#   news — обычная игровая новость (📰): раз в сутки — канал в первую
+#          очередь про скидки, новости не должны с ними конкурировать
 TIER_INTERVAL_SECONDS = {
     "hot": 0,
     "deal": 12 * 60,
-    "news": 60 * 60,
+    "news": 24 * 60 * 60,
 }
 
 # Сколько сообщений максимум отправлять за один запуск (страховка на случай,
@@ -58,7 +59,7 @@ MAX_POSTS_PER_RUN = 10
 
 # Пауза между отправками сообщений подряд, в секундах (чтобы не упереться
 # в лимиты Telegram).
-DELAY_BETWEEN_POSTS = 30
+DELAY_BETWEEN_POSTS = 3
 # =====================================================
 
 
@@ -100,7 +101,7 @@ def gather_deal_items(state: dict) -> list[dict]:
         raw_items.append({
             "id": d["id"], "platform": "steam", "title": d["title"],
             "discount": d["discount"], "url": d["url"],
-            "prices": prices, "publisher": publisher,
+            "prices": prices, "publisher": publisher, "end_date": None,
         })
 
     # --- GOG ---
@@ -122,7 +123,7 @@ def gather_deal_items(state: dict) -> list[dict]:
         raw_items.append({
             "id": d["id"], "platform": "gog", "title": d["title"],
             "discount": d["discount"], "url": d["url"],
-            "prices": prices, "publisher": d.get("publisher"),
+            "prices": prices, "publisher": d.get("publisher"), "end_date": None,
         })
 
     # --- Epic Games (обычные скидки, не еженедельная бесплатная игра) ---
@@ -144,7 +145,7 @@ def gather_deal_items(state: dict) -> list[dict]:
         raw_items.append({
             "id": d["id"], "platform": "epic", "title": d["title"],
             "discount": d["discount"], "url": d["url"],
-            "prices": prices, "publisher": None,
+            "prices": prices, "publisher": None, "end_date": d.get("end_date"),
         })
 
     return raw_items
@@ -181,7 +182,7 @@ def bundle_and_classify(raw_items: list[dict]) -> list[dict]:
     for it in singles:
         tier = _tier_for_discount(it["discount"])
         tier_emoji = "🔥" if tier == "hot" else "💰"
-        text = formatting.format_deal(it, tier_emoji)
+        text = formatting.format_deal(it, tier_emoji, end_date_iso=it.get("end_date"))
         queue_items.append({"id": it["id"], "tier": tier, "text": text, "member_ids": [it["id"]]})
 
     return queue_items
