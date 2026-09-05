@@ -1,9 +1,10 @@
 {
   "posted_deals": [
     "steam:311210",
-    "steam:2183900",
+    "steam:4656000",
     "steam:3240220",
     "epic:b8cc76ce7d6645f0a282b843a072cc78",
+    "steam:2183900",
     "steam:1326470"
   ],
   "posted_news": [],
@@ -144,15 +145,6 @@
       "added_at": "2026-09-05T11:10:57.189889+00:00"
     },
     {
-      "id": "steam:4656000",
-      "tier": "deal",
-      "text": "⚙️ <b>Steam</b>\n💰 Скидка 38% на <b>BOMBANANA!</b>\n\nhttps://store.steampowered.com/app/4656000/\n\n🇺🇸 <s>$7.99</s> → $4.95\n🇷🇺 <s>210 ₽</s> → 130 ₽\n🇰🇿 <s>2 530 ₸</s> → 1 568 ₸\n🇺🇦 <s>195 ₴</s> → 120 ₴\n🇧🇾 <s>4.99 Br</s> → 3.09 Br",
-      "member_ids": [
-        "steam:4656000"
-      ],
-      "added_at": "2026-09-05T11:20:50.298746+00:00"
-    },
-    {
       "id": "steam:108600",
       "tier": "deal",
       "text": "⚙️ <b>Steam</b>\n💰 Скидка 33% на <b>Project Zomboid</b>\n\nhttps://store.steampowered.com/app/108600/\n\n🇺🇸 <s>$24.99</s> → $16.74\n🇷🇺 <s>1 050 ₽</s> → 703 ₽\n🇰🇿 <s>7 040 ₸</s> → 4 716 ₸\n🇺🇦 <s>530 ₴</s> → 355 ₴\n🇧🇾 <s>12.49 Br</s> → 8.36 Br",
@@ -190,29 +182,28 @@
     }
   ],
   "queued_ids": [
-    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
-    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
-    "news:https://www.pcgamesn.com/old-school-runescape/osrs-dev-mod-jed-sentenced",
-    "steam:3321460",
-    "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
-    "steam:108600",
-    "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
-    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
-    "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
-    "news:https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
-    "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
-    "steam:2406770",
-    "news:https://www.pcgamer.com/games/pc-game-release-dates-september-2026/",
     "news:https://www.pcgamer.com/games/fps/as-wardogs-blows-past-200k-steam-concurrents-its-developers-are-prepared-for-the-day-hype-dies-down/",
-    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
-    "steam:4656000",
-    "news:https://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update",
-    "steam:1623730",
+    "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
+    "steam:3321460",
     "news:https://www.pcgamer.com/games/fps/left-4-dead-2-writer-says-valve-intentionally-leaked-its-cinematic-trailer-to-get-around-esrb-rules-i-think-we-cant-get-trouble-for-that-now/",
-    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support"
+    "news:https://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update",
+    "steam:2406770",
+    "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+    "news:https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
+    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
+    "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
+    "steam:1623730",
+    "steam:108600",
+    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
+    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
+    "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
+    "news:https://www.pcgamesn.com/old-school-runescape/osrs-dev-mod-jed-sentenced",
+    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+    "news:https://www.pcgamer.com/games/pc-game-release-dates-september-2026/"
   ],
   "last_published": {
-    "deal": "2026-09-05T11:30:51.098351+00:00",
+    "deal": "2026-09-05T11:45:51.702828+00:00",
     "news": "2026-09-05T11:10:34.872768+00:00",
     "hot": "2026-09-05T11:11:07.641745+00:00"
   },
