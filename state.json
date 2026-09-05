@@ -193,29 +193,39 @@
         "news:https://www.pcgamer.com/games/puzzle/this-free-lockpicking-puzzler-you-can-play-in-your-browser-is-unexpectedly-one-of-the-most-thrilling-games-ive-encountered-this-year/"
       ],
       "added_at": "2026-09-05T13:50:39.239891+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/fps/half-of-frances-premier-fps-sibling-duo-just-put-out-the-most-exhilarating-parkour-game-ive-ever-played-and-its-only-usd8/",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/fps/half-of-frances-premier-fps-sibling-duo-just-put-out-the-most-exhilarating-parkour-game-ive-ever-played-and-its-only-usd8/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/fps/half-of-frances-premier-fps-sibling-duo-just-put-out-the-most-exhilarating-parkour-game-ive-ever-played-and-its-only-usd8/"
+      ],
+      "added_at": "2026-09-05T14:05:31.837226+00:00"
     }
   ],
   "queued_ids": [
-    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
     "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
-    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
-    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
-    "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
-    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
-    "news:https://www.pcgamer.com/hardware/gaming-monitors/gaming-monitors-are-one-of-the-only-good-things-about-pc-hardware-right-now-but-one-niche-feature-is-underloved/",
-    "news:https://www.pcgamer.com/games/fps/as-wardogs-blows-past-200k-steam-concurrents-its-developers-are-prepared-for-the-day-hype-dies-down/",
-    "news:https://www.pcgamesn.com/roblox/chess-incremental-codes",
-    "news:https://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update",
-    "news:https://www.pcgamer.com/games/puzzle/this-free-lockpicking-puzzler-you-can-play-in-your-browser-is-unexpectedly-one-of-the-most-thrilling-games-ive-encountered-this-year/",
     "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6s-controversial-refuelling-action-reportedly-takes-about-10-seconds-to-perform-which-rockstars-co-studio-head-says-is-pretty-fast-for-a-fill-up/",
-    "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
-    "news:https://www.pcgamesn.com/old-school-runescape/osrs-dev-mod-jed-sentenced",
     "news:https://www.pcgamer.com/games/fps/left-4-dead-2-writer-says-valve-intentionally-leaked-its-cinematic-trailer-to-get-around-esrb-rules-i-think-we-cant-get-trouble-for-that-now/",
-    "news:https://www.pcgamer.com/games/pc-game-release-dates-september-2026/",
+    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
+    "news:https://www.pcgamer.com/games/puzzle/this-free-lockpicking-puzzler-you-can-play-in-your-browser-is-unexpectedly-one-of-the-most-thrilling-games-ive-encountered-this-year/",
+    "news:https://www.pcgamesn.com/ark-survival-ascended/cerberax-mount-taming",
+    "news:https://www.pcgamesn.com/old-school-runescape/osrs-dev-mod-jed-sentenced",
+    "news:https://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update",
     "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
     "news:https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
-    "news:https://www.pcgamesn.com/ark-survival-ascended/cerberax-mount-taming",
-    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin"
+    "news:https://www.pcgamer.com/hardware/gaming-monitors/gaming-monitors-are-one-of-the-only-good-things-about-pc-hardware-right-now-but-one-niche-feature-is-underloved/",
+    "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
+    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
+    "news:https://www.pcgamer.com/games/fps/as-wardogs-blows-past-200k-steam-concurrents-its-developers-are-prepared-for-the-day-hype-dies-down/",
+    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
+    "news:https://www.pcgamer.com/games/fps/half-of-frances-premier-fps-sibling-duo-just-put-out-the-most-exhilarating-parkour-game-ive-ever-played-and-its-only-usd8/",
+    "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
+    "news:https://www.pcgamesn.com/roblox/chess-incremental-codes",
+    "news:https://www.pcgamer.com/games/pc-game-release-dates-september-2026/"
   ],
   "last_published": {
     "deal": "2026-09-05T13:20:36.208784+00:00",
