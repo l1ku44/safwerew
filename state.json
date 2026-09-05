@@ -1,14 +1,15 @@
 {
   "posted_deals": [
     "steam:108600",
-    "epic:b8cc76ce7d6645f0a282b843a072cc78",
-    "steam:1326470",
+    "steam:2406770",
+    "steam:311210",
     "steam:3240220",
     "steam:4656000",
-    "steam:2183900",
+    "steam:3321460",
     "steam:1623730",
-    "steam:2406770",
-    "steam:311210"
+    "steam:1326470",
+    "epic:b8cc76ce7d6645f0a282b843a072cc78",
+    "steam:2183900"
   ],
   "posted_news": [],
   "queue": [
@@ -148,15 +149,6 @@
       "added_at": "2026-09-05T11:10:57.189889+00:00"
     },
     {
-      "id": "steam:3321460",
-      "tier": "deal",
-      "text": "⚙️ <b>Steam</b>\n💰 Скидка 20% на <b>Crimson Desert Enhanced</b>\n\nhttps://store.steampowered.com/app/3321460/\n\n🇺🇸 <s>$69.99</s> → $55.99\n🇷🇺 <s>4 299 ₽</s> → 3 439 ₽\n🇰🇿 <s>27 999 ₸</s> → 22 399 ₸\n🇺🇦 <s>2 449 ₴</s> → 1 959 ₴\n🇧🇾 <s>69.99 Br</s> → 55.99 Br",
-      "member_ids": [
-        "steam:3321460"
-      ],
-      "added_at": "2026-09-05T11:20:50.298827+00:00"
-    },
-    {
       "id": "news:https://www.pcgamesn.com/ark-survival-ascended/cerberax-mount-taming",
       "tier": "news",
       "text": "📰 Новый лучший мальчик Ark Survival Ascended, возможно, и является самым сильным ездовым животным, но за это придется заплатить.\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/ark-survival-ascended/cerberax-mount-taming",
@@ -185,28 +177,27 @@
     }
   ],
   "queued_ids": [
-    "news:https://www.pcgamer.com/games/fps/as-wardogs-blows-past-200k-steam-concurrents-its-developers-are-prepared-for-the-day-hype-dies-down/",
+    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
     "news:https://www.pcgamesn.com/ark-survival-ascended/cerberax-mount-taming",
-    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
-    "news:https://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update",
+    "news:https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
+    "news:https://www.pcgamer.com/games/fps/as-wardogs-blows-past-200k-steam-concurrents-its-developers-are-prepared-for-the-day-hype-dies-down/",
     "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
     "news:https://www.pcgamesn.com/old-school-runescape/osrs-dev-mod-jed-sentenced",
-    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
     "news:https://www.pcgamesn.com/roblox/chess-incremental-codes",
-    "news:https://www.pcgamer.com/games/pc-game-release-dates-september-2026/",
     "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
-    "news:https://www.pcgamer.com/games/fps/left-4-dead-2-writer-says-valve-intentionally-leaked-its-cinematic-trailer-to-get-around-esrb-rules-i-think-we-cant-get-trouble-for-that-now/",
-    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
-    "news:https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
-    "steam:3321460",
-    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6s-controversial-refuelling-action-reportedly-takes-about-10-seconds-to-perform-which-rockstars-co-studio-head-says-is-pretty-fast-for-a-fill-up/",
+    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
     "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
-    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
-    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
-    "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights"
+    "news:https://www.pcgamer.com/games/fps/left-4-dead-2-writer-says-valve-intentionally-leaked-its-cinematic-trailer-to-get-around-esrb-rules-i-think-we-cant-get-trouble-for-that-now/",
+    "news:https://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update",
+    "news:https://www.pcgamer.com/games/pc-game-release-dates-september-2026/",
+    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6s-controversial-refuelling-action-reportedly-takes-about-10-seconds-to-perform-which-rockstars-co-studio-head-says-is-pretty-fast-for-a-fill-up/",
+    "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
+    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/"
   ],
   "last_published": {
-    "deal": "2026-09-05T12:40:48.714718+00:00",
+    "deal": "2026-09-05T13:00:57.861931+00:00",
     "news": "2026-09-05T11:10:34.872768+00:00",
     "hot": "2026-09-05T11:11:07.641745+00:00"
   },
