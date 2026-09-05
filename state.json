@@ -1,8 +1,184 @@
 {
-  "posted_deals": [],
+  "posted_deals": [
+    "epic:b8cc76ce7d6645f0a282b843a072cc78",
+    "steam:311210",
+    "steam:2183900",
+    "steam:1326470"
+  ],
   "posted_news": [],
-  "queue": [],
-  "queued_ids": [],
-  "last_published": {},
-  "known_game_titles": []
+  "queue": [
+    {
+      "id": "steam:3240220",
+      "tier": "deal",
+      "text": "⚙️ <b>Steam</b>\n💰 Скидка 56% на <b>Grand Theft Auto V Enhanced</b>\n\nhttps://store.steampowered.com/app/3240220/\n\n🇺🇸 <s>$44.99</s> → $19.79\n🇰🇿 <s>22 499 ₸</s> → 9 899 ₸\n🇺🇦 <s>1 999 ₴</s> → 879 ₴",
+      "member_ids": [
+        "steam:3240220"
+      ],
+      "added_at": "2026-09-05T11:10:57.189826+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398"
+      ],
+      "added_at": "2026-09-05T11:10:57.189834+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
+      "tier": "news",
+      "text": "📰 «Зельда сверху вниз встречает Bloodborne»: экшен RPG Withering Realms вышел в раннем доступе, если вам хочется прокатиться на плечах ужасной куклы\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll"
+      ],
+      "added_at": "2026-09-05T11:10:57.189838+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is"
+      ],
+      "added_at": "2026-09-05T11:10:57.189845+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights"
+      ],
+      "added_at": "2026-09-05T11:10:57.189850+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
+      "tier": "news",
+      "text": "📰 Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms"
+      ],
+      "added_at": "2026-09-05T11:10:57.189854+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/fps/left-4-dead-2-writer-says-valve-intentionally-leaked-its-cinematic-trailer-to-get-around-esrb-rules-i-think-we-cant-get-trouble-for-that-now/",
+      "tier": "news",
+      "text": "📰 Сценарист Left 4 Dead 2 говорит, что Valve намеренно «слила» свой кинематографический трейлер, чтобы обойти правила ESRB: «Думаю, сейчас у нас не будет проблем из-за этого»\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/fps/left-4-dead-2-writer-says-valve-intentionally-leaked-its-cinematic-trailer-to-get-around-esrb-rules-i-think-we-cant-get-trouble-for-that-now/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/fps/left-4-dead-2-writer-says-valve-intentionally-leaked-its-cinematic-trailer-to-get-around-esrb-rules-i-think-we-cant-get-trouble-for-that-now/"
+      ],
+      "added_at": "2026-09-05T11:10:57.189858+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/pc-game-release-dates-september-2026/",
+      "tier": "news",
+      "text": "📰 Сентябрьский график новых игр, событий и обновлений не позволяет 2026 году войти в историю как медленный год для новых выпусков.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/pc-game-release-dates-september-2026/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/pc-game-release-dates-september-2026/"
+      ],
+      "added_at": "2026-09-05T11:10:57.189861+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/fps/as-wardogs-blows-past-200k-steam-concurrents-its-developers-are-prepared-for-the-day-hype-dies-down/",
+      "tier": "news",
+      "text": "📰 Поскольку Wardogs преодолевает отметку в 200 тысяч Steam, ее разработчики готовятся к тому дню, когда «ажиотаж утихнет».\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/fps/as-wardogs-blows-past-200k-steam-concurrents-its-developers-are-prepared-for-the-day-hype-dies-down/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/fps/as-wardogs-blows-past-200k-steam-concurrents-its-developers-are-prepared-for-the-day-hype-dies-down/"
+      ],
+      "added_at": "2026-09-05T11:10:57.189864+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
+      "tier": "news",
+      "text": "📰 Отпразднуйте День труда, играя в Civilization 7 бесплатно\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/"
+      ],
+      "added_at": "2026-09-05T11:10:57.189868+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
+      "tier": "news",
+      "text": "📰 «Grand Theft Auto — это франшиза видеоигр, построенная на преступной деятельности»: шериф округа Майами-Дейд резко выступает против предложенного сотрудничества GTA 6 с Rockstar\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/"
+      ],
+      "added_at": "2026-09-05T11:10:57.189871+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update",
+      "tier": "news",
+      "text": "📰 Следующее расширение Hearts of Iron 4 отложено, поскольку Paradox пытается уменьшить «умственные нагрузки»\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update"
+      ],
+      "added_at": "2026-09-05T11:10:57.189874+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/old-school-runescape/osrs-dev-mod-jed-sentenced",
+      "tier": "news",
+      "text": "📰 Бывший разработчик Runescape старой школы осужден за кражу у игроков с целью получения более 400 000 долларов в виде выплат на «черном рынке»\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/old-school-runescape/osrs-dev-mod-jed-sentenced",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/old-school-runescape/osrs-dev-mod-jed-sentenced"
+      ],
+      "added_at": "2026-09-05T11:10:57.189877+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
+      "tier": "news",
+      "text": "📰 Nvidia подтверждает, что ее AI-фильтр DLSS 5 не будет ограничен только графическими процессорами RTX 50\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support"
+      ],
+      "added_at": "2026-09-05T11:10:57.189881+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+      "tier": "news",
+      "text": "📰 Новый тизер Warframe позволяет вам получить бесплатную Гонорию перед Нарином и событием Тау.\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin"
+      ],
+      "added_at": "2026-09-05T11:10:57.189884+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+      "tier": "news",
+      "text": "📰 Дорога к Valheim 1.0: «Это конец эпохи, но начало новой эры»\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview"
+      ],
+      "added_at": "2026-09-05T11:10:57.189889+00:00"
+    }
+  ],
+  "queued_ids": [
+    "news:https://www.pcgamer.com/games/fps/as-wardogs-blows-past-200k-steam-concurrents-its-developers-are-prepared-for-the-day-hype-dies-down/",
+    "news:https://www.pcgamesn.com/warframe/devstream-197-taubound-event-iceblade-of-narin",
+    "news:https://www.pcgamesn.com/old-school-runescape/osrs-dev-mod-jed-sentenced",
+    "news:https://www.pcgamer.com/games/strategy/celebrate-labor-day-by-playing-civilization-7-for-free/",
+    "news:https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-398",
+    "news:https://www.rockpapershotgun.com/playing-mass-effect-inspired-rpg-exodus-was-an-uncomfortably-familiar-space-trip-despite-some-brilliant-zero-g-fights",
+    "news:https://www.pcgamer.com/games/fps/left-4-dead-2-writer-says-valve-intentionally-leaked-its-cinematic-trailer-to-get-around-esrb-rules-i-think-we-cant-get-trouble-for-that-now/",
+    "news:https://www.pcgamesn.com/hearts-of-iron-iv/next-expansion-delayed-romania-dlc-qol-update",
+    "steam:3240220",
+    "news:https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-is-a-videogame-franchise-built-around-criminal-activity-miami-dade-county-sheriff-comes-out-hard-against-a-proposed-gta-6-collab-with-rockstar/",
+    "news:https://www.rockpapershotgun.com/top-down-zelda-meets-bloodborne-action-rpg-withering-realms-is-out-now-in-early-access-should-you-fancy-riding-the-shoulders-of-a-horrible-doll",
+    "news:https://www.pcgamesn.com/nvidia/dlss-5-rtx-40-support",
+    "news:https://www.rockpapershotgun.com/former-playstation-indie-boss-shuhei-yoshida-and-the-founder-of-tigsource-are-throwing-a-game-poem-jam-that-challenges-traditional-boundaries-between-art-forms",
+    "news:https://www.pcgamesn.com/valheim/1-0-gamescom-interview",
+    "news:https://www.rockpapershotgun.com/moonlighter-2-the-endless-vault-review-a-pleasant-bout-of-number-go-up-thats-most-remarkable-for-how-much-of-an-improvement-it-is",
+    "news:https://www.pcgamer.com/games/pc-game-release-dates-september-2026/"
+  ],
+  "last_published": {
+    "deal": "2026-09-05T11:10:34.872768+00:00",
+    "news": "2026-09-05T11:10:34.872768+00:00",
+    "hot": "2026-09-05T11:11:07.641745+00:00"
+  },
+  "known_game_titles": [
+    "Call of Duty®: Black Ops III",
+    "Warhammer 40,000: Space Marine 2",
+    "Sons Of The Forest",
+    "Grand Theft Auto V Enhanced"
+  ]
 }
