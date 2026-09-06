@@ -21,6 +21,7 @@
 """
 
 import re
+import time
 
 try:
     from deep_translator import GoogleTranslator
@@ -52,11 +53,39 @@ def _protected_terms(extra_protected: list[str] | None) -> list[str]:
     return terms
 
 
-def to_russian(text: str, extra_protected: list[str] | None = None) -> str:
+def _looks_like_translation_error(original: str, candidate: str) -> bool:
     """
-    Переводит текст на русский. Если перевод недоступен или произошла
-    ошибка — возвращает исходный текст без изменений (лучше опубликовать
-    новость на английском, чем не опубликовать вовсе).
+    Бесплатный движок перевода иногда возвращает не перевод, а текст
+    ошибки/предупреждения самого сервиса (лимит запросов, недоступность
+    и т.п.) — и делает это, не поднимая исключение в Python. Такое
+    сообщение легко принять за настоящий перевод, если не проверять его
+    содержимое. Эвристика ниже не идеальна, но отсекает самые частые
+    случаи, встречающиеся у бесплатных переводческих API.
+    """
+    if not candidate:
+        return True
+    lowered = candidate.lower()
+    error_markers = (
+        "error", "exceeded", "quota", "too many requests", "rate limit",
+        "bad request", "unavailable", "service", "timeout", "try again",
+        "429", "502", "503",
+    )
+    if any(marker in lowered for marker in error_markers):
+        return True
+    # Настоящий перевод почти никогда не бывает в разы короче оригинала.
+    if len(original) > 20 and len(candidate) < len(original) * 0.25:
+        return True
+    return False
+
+
+def to_russian(text: str, extra_protected: list[str] | None = None,
+                max_attempts: int = 2) -> str:
+    """
+    Переводит текст на русский. Если перевод недоступен, произошла
+    ошибка, либо результат похож на служебное сообщение об ошибке, а не
+    на настоящий перевод — возвращает исходный текст без изменений
+    (лучше опубликовать новость на английском, чем сломанный текст или
+    не опубликовать вовсе).
     """
     if not text:
         return text
@@ -73,13 +102,26 @@ def to_russian(text: str, extra_protected: list[str] | None = None) -> str:
             placeholder_map[token] = term
             working_text = working_text.replace(term, token)
 
-    try:
-        translated = GoogleTranslator(source="auto", target="ru").translate(working_text)
-    except Exception as e:
-        print(f"[translate] Ошибка перевода, публикую оригинал на английском: {e}")
-        return text
+    translated = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            candidate = GoogleTranslator(source="auto", target="ru").translate(working_text)
+        except Exception as e:
+            print(f"[translate] Ошибка перевода (попытка {attempt}/{max_attempts}): {e}")
+            candidate = None
+
+        if candidate and not _looks_like_translation_error(working_text, candidate):
+            translated = candidate
+            break
+
+        if candidate:
+            print(f"[translate] Результат перевода похож на служебную ошибку, "
+                  f"а не на перевод (попытка {attempt}/{max_attempts}): {candidate[:200]!r}")
+        if attempt < max_attempts:
+            time.sleep(1.5)
 
     if not translated:
+        print("[translate] Не удалось получить корректный перевод, публикую оригинал на английском")
         return text
 
     for token, term in placeholder_map.items():

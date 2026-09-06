@@ -47,6 +47,29 @@ def _to_float(raw):
         return None
 
 
+def _parse_discount_percent(raw) -> int:
+    """
+    Реальный формат поля скидки в ответе GOG оказался строкой вида
+    "-95%" (с минусом и знаком процента), а не просто числом, как
+    предполагалось изначально без возможности проверить вживую — из-за
+    этого раньше падал int() и ВСЕ скидки GOG без исключения молча
+    пропускались. Эта функция понимает и такой формат, и обычное число.
+    """
+    if raw is None:
+        return 0
+    if isinstance(raw, bool):
+        return 0
+    if isinstance(raw, (int, float)):
+        return abs(int(raw))
+    if isinstance(raw, str):
+        cleaned = raw.strip().replace("%", "").replace("−", "-").strip()
+        try:
+            return abs(int(float(cleaned)))
+        except ValueError:
+            return 0
+    return 0
+
+
 def get_deals(country: str = "US", currency: str = "USD",
               min_discount: int = 50, limit: int = 30) -> list[dict]:
     """
@@ -74,8 +97,7 @@ def get_deals(country: str = "US", currency: str = "USD",
     for p in products:
         try:
             price_block = p.get("price") or {}
-            discount = _first(price_block, ["discountPercentage", "discount"], 0)
-            discount = int(discount or 0)
+            discount = _parse_discount_percent(_first(price_block, ["discountPercentage", "discount"], 0))
             if discount < min_discount:
                 continue
 

@@ -30,17 +30,17 @@ from sources import steam, epic, gog, news
 CURRENCIES = ("USD", "RUB", "KZT", "UAH", "BYN")
 
 # Минимальный процент скидки, начиная с которого игра вообще попадает в канал.
-MIN_DISCOUNT_STEAM = 20
-MIN_DISCOUNT_GOG = 50
-MIN_DISCOUNT_EPIC = 30
+MIN_DISCOUNT_STEAM = 40
+MIN_DISCOUNT_GOG = 40
+MIN_DISCOUNT_EPIC = 40
 
 # Скидки от этого процента считаются "горячими" (🔥) и публикуются
 # практически сразу, а не по обычному расписанию тира "deal".
-HOT_DISCOUNT_THRESHOLD = 60
+HOT_DISCOUNT_THRESHOLD = 70
 
 # От скольких новых скидок ОДНОГО издателя на ОДНОЙ платформе за один
 # запуск делать один общий пост вместо отдельного поста на каждую игру.
-BUNDLE_MIN_COUNT = 3
+BUNDLE_MIN_COUNT = 4
 
 # Минимальный интервал между публикациями одного тира, в секундах.
 #   hot  — очень крупная скидка (🔥) или бесплатная игра (🆓)
@@ -49,7 +49,7 @@ BUNDLE_MIN_COUNT = 3
 #          очередь про скидки, новости не должны с ними конкурировать
 TIER_INTERVAL_SECONDS = {
     "hot": 0,
-    "deal": 15 * 60,
+    "deal": 12 * 60,
     "news": 24 * 60 * 60,
 }
 
@@ -57,9 +57,17 @@ TIER_INTERVAL_SECONDS = {
 # если бот долго не запускался и в очереди накопилось много всего).
 MAX_POSTS_PER_RUN = 10
 
+# Сколько НОВЫХ (ещё не встречавшихся) скидок с одной платформы обрабатывать
+# за один запуск (для каждой запрашивается цена в нескольких валютах — это
+# несколько сетевых запросов на игру, и если разом "открывается" много
+# новых скидок — например, сразу после снижения порога — один запуск может
+# не уложиться в разумное время. Лишнее просто останется необработанным до
+# следующих запусков — раз в 5 минут все они постепенно обработаются.
+MAX_NEW_ITEMS_PER_SOURCE_PER_RUN = 10
+
 # Пауза между отправками сообщений подряд, в секундах (чтобы не упереться
 # в лимиты Telegram).
-DELAY_BETWEEN_POSTS = 30
+DELAY_BETWEEN_POSTS = 3
 # =====================================================
 
 
@@ -79,7 +87,10 @@ def _already_seen(state: dict, item_id: str) -> bool:
 def gather_deal_items(state: dict) -> list[dict]:
     """Собирает новые скидки со всех платформ вместе с ценами в нескольких
     валютах. Уже опубликованные или стоящие в очереди скидки повторно не
-    запрашиваются (не тратим лишние запросы к API магазинов)."""
+    запрашиваются (не тратим лишние запросы к API магазинов). Если новых
+    скидок с одной платформы окажется больше MAX_NEW_ITEMS_PER_SOURCE_PER_RUN —
+    в этот раз обрабатываются самые крупные скидки, остальные подхватятся
+    в одном из следующих запусков (через 5 минут)."""
     raw_items: list[dict] = []
 
     # --- Steam ---
@@ -90,9 +101,10 @@ def gather_deal_items(state: dict) -> list[dict]:
         steam_deals = []
     for d in steam_deals:
         remember_game_title(state, d["title"])
-    for d in steam_deals:
-        if _already_seen(state, d["id"]):
-            continue
+    steam_new = [d for d in steam_deals if not _already_seen(state, d["id"])]
+    steam_new.sort(key=lambda d: d["discount"], reverse=True)
+    steam_deferred = max(0, len(steam_new) - MAX_NEW_ITEMS_PER_SOURCE_PER_RUN)
+    for d in steam_new[:MAX_NEW_ITEMS_PER_SOURCE_PER_RUN]:
         try:
             prices, publisher = steam.get_multi_currency(d["appid"], currencies=CURRENCIES)
         except Exception as e:
@@ -103,6 +115,9 @@ def gather_deal_items(state: dict) -> list[dict]:
             "discount": d["discount"], "url": d["url"],
             "prices": prices, "publisher": publisher, "end_date": None,
         })
+    print(f"[main] Steam: найдено скидок {len(steam_deals)}, новых {len(steam_new)}, "
+          f"обработано {min(len(steam_new), MAX_NEW_ITEMS_PER_SOURCE_PER_RUN)}, "
+          f"отложено на следующий запуск {steam_deferred}")
 
     # --- GOG ---
     try:
@@ -112,9 +127,10 @@ def gather_deal_items(state: dict) -> list[dict]:
         gog_deals = []
     for d in gog_deals:
         remember_game_title(state, d["title"])
-    for d in gog_deals:
-        if _already_seen(state, d["id"]):
-            continue
+    gog_new = [d for d in gog_deals if not _already_seen(state, d["id"])]
+    gog_new.sort(key=lambda d: d["discount"], reverse=True)
+    gog_deferred = max(0, len(gog_new) - MAX_NEW_ITEMS_PER_SOURCE_PER_RUN)
+    for d in gog_new[:MAX_NEW_ITEMS_PER_SOURCE_PER_RUN]:
         try:
             prices = gog.get_multi_currency(d["price_id"], currencies=CURRENCIES)
         except Exception as e:
@@ -125,6 +141,9 @@ def gather_deal_items(state: dict) -> list[dict]:
             "discount": d["discount"], "url": d["url"],
             "prices": prices, "publisher": d.get("publisher"), "end_date": None,
         })
+    print(f"[main] GOG: найдено скидок {len(gog_deals)}, новых {len(gog_new)}, "
+          f"обработано {min(len(gog_new), MAX_NEW_ITEMS_PER_SOURCE_PER_RUN)}, "
+          f"отложено на следующий запуск {gog_deferred}")
 
     # --- Epic Games (обычные скидки, не еженедельная бесплатная игра) ---
     try:
@@ -134,9 +153,10 @@ def gather_deal_items(state: dict) -> list[dict]:
         epic_deals = []
     for d in epic_deals:
         remember_game_title(state, d["title"])
-    for d in epic_deals:
-        if _already_seen(state, d["id"]):
-            continue
+    epic_new = [d for d in epic_deals if not _already_seen(state, d["id"])]
+    epic_new.sort(key=lambda d: d["discount"], reverse=True)
+    epic_deferred = max(0, len(epic_new) - MAX_NEW_ITEMS_PER_SOURCE_PER_RUN)
+    for d in epic_new[:MAX_NEW_ITEMS_PER_SOURCE_PER_RUN]:
         try:
             prices = epic.get_multi_currency(d["title"], d.get("raw_id"), currencies=CURRENCIES)
         except Exception as e:
@@ -147,6 +167,9 @@ def gather_deal_items(state: dict) -> list[dict]:
             "discount": d["discount"], "url": d["url"],
             "prices": prices, "publisher": None, "end_date": d.get("end_date"),
         })
+    print(f"[main] Epic Games: найдено скидок {len(epic_deals)}, новых {len(epic_new)}, "
+          f"обработано {min(len(epic_new), MAX_NEW_ITEMS_PER_SOURCE_PER_RUN)}, "
+          f"отложено на следующий запуск {epic_deferred}")
 
     return raw_items
 
@@ -239,7 +262,12 @@ def make_send_fn(state: dict):
 
 
 def main() -> None:
+    run_started = time.monotonic()
+    print(f"=== Запуск бота: {queue_manager.to_iso(queue_manager.now_utc())} ===")
+
     state = load_state()
+    print(f"[main] На входе: посты-скидки {len(state.get('posted_deals', []))}, "
+          f"новости {len(state.get('posted_news', []))}, в очереди {len(state.get('queue', []))}")
 
     new_queue_items = []
     new_queue_items.extend(bundle_and_classify(gather_deal_items(state)))
@@ -269,7 +297,9 @@ def main() -> None:
     )
 
     queue_len = len(state.get("queue", []))
-    print(f"Опубликовано за этот запуск: {sent}. В очереди осталось: {queue_len}.")
+    duration = time.monotonic() - run_started
+    print(f"Опубликовано за этот запуск: {sent}. В очереди осталось: {queue_len}. "
+          f"Длительность запуска: {duration:.1f} сек.")
 
     save_state(state)
 

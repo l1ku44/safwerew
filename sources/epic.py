@@ -154,12 +154,26 @@ def get_discounts(min_discount: int = 50, count: int = 50) -> list[dict]:
     if not _EPICSTORE_API_AVAILABLE:
         return deals
 
-    try:
-        api = EpicGamesStoreAPI(country="US")
-        result = api.fetch_store_games(count=count, with_price=True, allow_countries="US")
-        elements = _extract_elements(result)
-    except Exception as e:
-        print(f"[epic] Не удалось получить список скидок: {e}")
+    elements = None
+    last_error = None
+    for attempt in range(1, 3):
+        try:
+            api = EpicGamesStoreAPI(country="US")
+            result = api.fetch_store_games(count=count, with_price=True, allow_countries="US")
+            elements = _extract_elements(result)
+            break
+        except Exception as e:
+            last_error = e
+            time.sleep(3)
+
+    if elements is None:
+        hint = ""
+        if last_error is not None and "Expecting value" in str(last_error):
+            hint = (" Похоже, Epic (точнее, его защита от ботов) вернул пустой или "
+                    "нестандартный ответ вместо списка игр — это специфика именно "
+                    "этого источника (см. README, раздел «Ограничения»), а не что-то, "
+                    "что чинится настройками бота.")
+        print(f"[epic] Не удалось получить список скидок после 2 попыток: {last_error}.{hint}")
         return deals
 
     for el in elements:
