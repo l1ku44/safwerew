@@ -1,8 +1,260 @@
 {
-  "posted_deals": [],
+  "posted_deals": [
+    "gog:1254210921",
+    "gog:1492542624",
+    "gog:1859396546",
+    "gog:1465406009",
+    "gog:2137859649",
+    "gog:1810099340",
+    "gog:2147483119",
+    "gog:1116827902",
+    "gog:1623863915",
+    "gog:1211776926"
+  ],
   "posted_news": [],
-  "queue": [],
-  "queued_ids": [],
-  "last_published": {},
-  "known_game_titles": []
+  "queue": [
+    {
+      "id": "steam:2183900",
+      "tier": "hot",
+      "text": "⚙️ <b>Steam</b>\n🔥 Скидка 75% на <b>Warhammer 40,000: Space Marine 2</b>\n\nhttps://store.steampowered.com/app/2183900/\n\n🇺🇸 <s>$59.99</s> → $14.99\n🇷🇺 <s>3 199 ₽</s> → 799 ₽\n🇰🇿 <s>16 990 ₸</s> → 4 247 ₸\n🇺🇦 <s>1 559 ₴</s> → 389 ₴\n🇧🇾 <s>44.99 Br</s> → 11.24 Br",
+      "member_ids": [
+        "steam:2183900"
+      ],
+      "added_at": "2026-09-06T13:46:22.412441+00:00"
+    },
+    {
+      "id": "steam:311210",
+      "tier": "hot",
+      "text": "⚙️ <b>Steam</b>\n🔥 Скидка 75% на <b>Call of Duty®: Black Ops III</b>\n\nhttps://store.steampowered.com/app/311210/\n\n🇺🇸 <s>$59.99</s> → $14.99\n🇰🇿 <s>30 030 ₸</s> → 7 507 ₸\n🇺🇦 <s>2 552 ₴</s> → 638 ₴",
+      "member_ids": [
+        "steam:311210"
+      ],
+      "added_at": "2026-09-06T13:46:22.412445+00:00"
+    },
+    {
+      "id": "steam:1326470",
+      "tier": "hot",
+      "text": "⚙️ <b>Steam</b>\n🔥 Скидка 70% на <b>Sons Of The Forest</b>\n\nhttps://store.steampowered.com/app/1326470/\n\n🇺🇸 <s>$29.99</s> → $8.99\n🇷🇺 <s>1 100 ₽</s> → 330 ₽\n🇰🇿 <s>7 600 ₸</s> → 2 280 ₸\n🇺🇦 <s>600 ₴</s> → 180 ₴\n🇧🇾 <s>14.49 Br</s> → 4.34 Br",
+      "member_ids": [
+        "steam:1326470"
+      ],
+      "added_at": "2026-09-06T13:46:22.412449+00:00"
+    },
+    {
+      "id": "steam:3240220",
+      "tier": "deal",
+      "text": "⚙️ <b>Steam</b>\n💰 Скидка 56% на <b>Grand Theft Auto V Enhanced</b>\n\nhttps://store.steampowered.com/app/3240220/\n\n🇺🇸 <s>$44.99</s> → $19.79\n🇰🇿 <s>22 499 ₸</s> → 9 899 ₸\n🇺🇦 <s>1 999 ₴</s> → 879 ₴",
+      "member_ids": [
+        "steam:3240220"
+      ],
+      "added_at": "2026-09-06T13:46:22.412453+00:00"
+    },
+    {
+      "id": "epic:b8cc76ce7d6645f0a282b843a072cc78",
+      "tier": "hot",
+      "text": "🎮 <b>Epic Games</b>\n🆓 Бесплатно до 10 сентября — <b>Alone With You</b>\n\nhttps://store.epicgames.com/en/p/68a0e4e0a68d42ffba405593a89c55ba",
+      "member_ids": [
+        "epic:b8cc76ce7d6645f0a282b843a072cc78"
+      ],
+      "added_at": "2026-09-06T13:46:22.412456+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/the-sunday-papers-826",
+      "tier": "news",
+      "text": "📰 Воскресные газеты\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/the-sunday-papers-826",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/the-sunday-papers-826"
+      ],
+      "added_at": "2026-09-06T13:46:22.412460+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
+      "tier": "news",
+      "text": "📰 Доставляйте посылки в лесистые горы и избегайте воров-кабанов в соседней с Death Stranding и довольно спокойной на вид Сосновой тропе.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail"
+      ],
+      "added_at": "2026-09-06T13:46:22.412481+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
+      "tier": "news",
+      "text": "📰 Laser Guy — это «анти-шутер» с двумя джойстиками о находящемся в стрессе разработчике игр, который не может перестать стрелять лазерными лучами из глаза.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes"
+      ],
+      "added_at": "2026-09-06T13:46:22.412485+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
+      "tier": "news",
+      "text": "📰 ESRB не позволил Valve выпустить кинематографический трейлер Left 4 Dead 2, так что же они сделали? Они это &quot;слили&quot;, очевидно\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously"
+      ],
+      "added_at": "2026-09-06T13:46:22.412490+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
+      "tier": "news",
+      "text": "📰 Первая игра Double Fine после сплита Xbox — это дурацкий симулятор вождения автобуса, в котором вам предстоит бить пассажиров, которые не соблюдают правила, и хорошо выполнять свою работу.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job"
+      ],
+      "added_at": "2026-09-06T13:46:22.412496+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
+      "tier": "news",
+      "text": "📰 Deficit, сочетающий Deus Ex с Escape from Butcher Bay, является одним из самых захватывающих инди-симуляторов, в которые я играл, даже несмотря на то, что система скрытности требует серьезной доработки.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/"
+      ],
+      "added_at": "2026-09-06T13:46:22.412501+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
+      "tier": "news",
+      "text": "📰 Вот еще 10 минут самой интересной игры, показанной на Opening Night Live в этом году.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/"
+      ],
+      "added_at": "2026-09-06T13:46:22.412505+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/",
+      "tier": "news",
+      "text": "📰 Civilization 7, наконец, вступит в атомный век в 2027 году благодаря бесплатному обновлению, которое, по словам Firaxis, будет «даже более масштабным», чем прошлогоднее Test of Time.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/"
+      ],
+      "added_at": "2026-09-06T13:46:22.412509+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
+      "tier": "news",
+      "text": "📰 Бывший дизайнер BioWare говорит, что мрачность и мрачность следующей Mass Effect преувеличены: «Я думаю, что они смогут это сделать»\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/"
+      ],
+      "added_at": "2026-09-06T13:46:22.412514+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
+      "tier": "news",
+      "text": "📰 Пиковая студия Aggro Crab публикует отвратительный платформер о синем воротничке, выполняющем грязную работу в инопланетном мире\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/"
+      ],
+      "added_at": "2026-09-06T13:46:22.412518+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
+      "tier": "news",
+      "text": "📰 Civilization 7 наконец-то вступит в атомный век с бесплатным обновлением, за которым последует космическая гонка DLC\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ],
+      "added_at": "2026-09-06T13:46:22.412522+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
+      "tier": "news",
+      "text": "📰 Riot Games понимает, что MMO — это большой риск. «Но, черт возьми, это же Грааль, так что поехали».\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail"
+      ],
+      "added_at": "2026-09-06T13:46:22.412526+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/valheim/sequel-interview",
+      "tier": "news",
+      "text": "📰 There won&#x27;t be a Valheim 2, but there will be more Valheim, Iron Gate says\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/valheim/sequel-interview",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/valheim/sequel-interview"
+      ],
+      "added_at": "2026-09-06T13:46:22.412530+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
+      "tier": "news",
+      "text": "📰 Brutally realistic FPS Ready or Not gets a transformative new mission editor\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/ready-or-not/update-mission-editor",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor"
+      ],
+      "added_at": "2026-09-06T13:46:22.412535+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
+      "tier": "news",
+      "text": "📰 World of Warcraft makes &quot;different mistakes&quot; each patch, but &quot;that&#x27;s to some extent inevitable, and a little bit our goal&quot;\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon"
+      ],
+      "added_at": "2026-09-06T13:46:22.412539+00:00"
+    }
+  ],
+  "queued_ids": [
+    "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
+    "steam:1326470",
+    "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
+    "steam:3240220",
+    "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
+    "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
+    "news:https://www.rockpapershotgun.com/the-sunday-papers-826",
+    "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
+    "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
+    "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
+    "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
+    "news:https://www.pcgamesn.com/valheim/sequel-interview",
+    "steam:2183900",
+    "news:https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/",
+    "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
+    "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
+    "steam:311210",
+    "epic:b8cc76ce7d6645f0a282b843a072cc78",
+    "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
+    "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon"
+  ],
+  "last_published": {
+    "deal": "2026-09-06T13:45:35.741539+00:00",
+    "news": "2026-09-06T13:45:35.741539+00:00",
+    "hot": "2026-09-06T13:46:54.727054+00:00"
+  },
+  "known_game_titles": [
+    "Warhammer 40,000: Space Marine 2",
+    "Call of Duty®: Black Ops III",
+    "Sons Of The Forest",
+    "Grand Theft Auto V Enhanced",
+    "Cris Tales Original Soundtrack",
+    "Curved Space Official Soundtrack",
+    "Dance of Cards Soundtrack",
+    "Dead Age 1 + 2 Bundle",
+    "Leisure Suit Larry - Wet Dreams Don't Dry",
+    "Leisure Suit Larry - Wet Dreams Dry Twice",
+    "SPACE ACCIDENT",
+    "The Black Within",
+    "The Green Light",
+    "War Hospital",
+    "Warhammer: Chaosbane",
+    "Warhammer: Chaosbane Slayer Edition",
+    "Whale Rock All Games Bundle",
+    "Whale Rock Games - Immersive Puzzles Bundle",
+    "Dex",
+    "Euphoria: Supreme Mechanics",
+    "The Way",
+    "Cyberpunk SFX",
+    "Hell Division",
+    "Inquisitor’s Heart and Soul",
+    "PolyClassic: Wild",
+    "The Wraith of the Galaxy",
+    "We are the Dwarves",
+    "Alice VR",
+    "Attentat 1942",
+    "Jet Kave Adventure",
+    "Orbital Bullet – The 360° Rogue-lite",
+    "The Coma: Recut Deluxe Edition",
+    "Arkanoid - Eternal Battle",
+    "Atlantis 3: The New World"
+  ]
 }
