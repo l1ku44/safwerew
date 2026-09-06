@@ -1,35 +1,42 @@
 {
   "posted_deals": [
-    "gog:1462182139",
-    "gog:1184250115",
-    "steam:2183900",
-    "gog:2137859649",
-    "gog:1323998332",
-    "gog:2147483119",
-    "gog:1810099340",
-    "gog:1638321975",
-    "gog:1170675521",
     "gog:1116827902",
-    "gog:1211776926",
-    "gog:1623863915",
-    "gog:1599346921",
-    "gog:1254210921",
-    "gog:1321737474",
-    "gog:1465406009",
-    "gog:1207667163",
-    "epic:b8cc76ce7d6645f0a282b843a072cc78",
-    "steam:3240220",
+    "gog:1084856569",
     "gog:1428305992",
-    "gog:1877761297",
-    "gog:1929434313",
-    "gog:1492542624",
-    "gog:1153735119",
-    "steam:311210",
-    "gog:1859396546",
+    "gog:1254210921",
+    "gog:1211776926",
+    "gog:1465406009",
+    "gog:1623863915",
+    "gog:2147483119",
     "gog:1318083561",
+    "epic:b8cc76ce7d6645f0a282b843a072cc78",
+    "gog:1929434313",
+    "steam:1488462",
+    "gog:1462182139",
+    "steam:2183900",
+    "steam:1326470",
+    "gog:1321737474",
+    "gog:1153735119",
+    "steam:1174180",
+    "gog:2137859649",
     "gog:1249359495",
+    "gog:1207667163",
+    "gog:1184250115",
+    "gog:1810099340",
+    "gog:1599346921",
+    "gog:1329677183",
+    "gog:1638321975",
+    "steam:3240220",
+    "gog:1492542624",
+    "gog:1323998332",
+    "gog:1877761297",
+    "gog:1207658958",
+    "gog:1630907432",
+    "gog:1859396546",
+    "steam:311210",
     "gog:1115004086",
-    "steam:1326470"
+    "gog:1170675521",
+    "gog:1765360308"
   ],
   "posted_news": [],
   "queue": [
@@ -169,15 +176,6 @@
       "added_at": "2026-09-06T13:46:22.412539+00:00"
     },
     {
-      "id": "steam:1488462",
-      "tier": "deal",
-      "text": "⚙️ <b>Steam</b>\n💰 Скидка 20% на <b>007 First Light</b>\n\nhttps://store.steampowered.com/app/1488462/\n",
-      "member_ids": [
-        "steam:1488462"
-      ],
-      "added_at": "2026-09-06T13:49:22.154348+00:00"
-    },
-    {
       "id": "steam:4656000",
       "tier": "deal",
       "text": "⚙️ <b>Steam</b>\n💰 Скидка 38% на <b>BOMBANANA!</b>\n\nhttps://store.steampowered.com/app/4656000/\n\n🇺🇸 <s>$7.99</s> → $4.95\n🇷🇺 <s>210 ₽</s> → 130 ₽\n🇰🇿 <s>2 530 ₸</s> → 1 568 ₸\n🇺🇦 <s>195 ₴</s> → 120 ₴\n🇧🇾 <s>4.99 Br</s> → 3.09 Br",
@@ -223,60 +221,6 @@
       "added_at": "2026-09-06T13:49:22.154436+00:00"
     },
     {
-      "id": "gog:1084856569",
-      "tier": "hot",
-      "text": "🕹 <b>GOG</b>\n🔥 Скидка 92% на <b>Jet Kave Adventure</b>\n\nhttps://www.gog.com/game/jet_kave_adventure\n",
-      "member_ids": [
-        "gog:1084856569"
-      ],
-      "added_at": "2026-09-06T16:28:15.996229+00:00"
-    },
-    {
-      "id": "gog:1765360308",
-      "tier": "hot",
-      "text": "🕹 <b>GOG</b>\n🔥 Скидка 92% на <b>Orbital Bullet – The 360° Rogue-lite</b>\n\nhttps://www.gog.com/game/orbital_bullet_the_360_roguelite\n",
-      "member_ids": [
-        "gog:1765360308"
-      ],
-      "added_at": "2026-09-06T16:28:15.996234+00:00"
-    },
-    {
-      "id": "gog:1329677183",
-      "tier": "hot",
-      "text": "🕹 <b>GOG</b>\n🔥 Скидка 92% на <b>The Coma: Recut Deluxe Edition</b>\n\nhttps://www.gog.com/game/the_coma_recut_deluxe_edition\n",
-      "member_ids": [
-        "gog:1329677183"
-      ],
-      "added_at": "2026-09-06T16:28:15.996244+00:00"
-    },
-    {
-      "id": "gog:1630907432",
-      "tier": "hot",
-      "text": "🕹 <b>GOG</b>\n🔥 Скидка 91% на <b>Arkanoid - Eternal Battle</b>\n\nhttps://www.gog.com/game/arkanoid_eternal_battle\n",
-      "member_ids": [
-        "gog:1630907432"
-      ],
-      "added_at": "2026-09-06T16:28:15.996250+00:00"
-    },
-    {
-      "id": "gog:1207658958",
-      "tier": "hot",
-      "text": "🕹 <b>GOG</b>\n🔥 Скидка 91% на <b>Atlantis 3: The New World</b>\n\nhttps://www.gog.com/game/atlantis_3_the_new_world\n",
-      "member_ids": [
-        "gog:1207658958"
-      ],
-      "added_at": "2026-09-06T16:28:15.996255+00:00"
-    },
-    {
-      "id": "steam:1174180",
-      "tier": "hot",
-      "text": "⚙️ <b>Steam</b>\n🔥 Скидка 75% на <b>Red Dead Redemption 2</b>\n\nhttps://store.steampowered.com/app/1174180/\n\n🇺🇸 <s>$59.99</s> → $14.99\n🇰🇿 <s>29 999 ₸</s> → 7 499 ₸\n🇺🇦 <s>2 599 ₴</s> → 649 ₴",
-      "member_ids": [
-        "steam:1174180"
-      ],
-      "added_at": "2026-09-06T16:28:15.996260+00:00"
-    },
-    {
       "id": "news:https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-proves-the-parry-formula-is-far-from-stale-you-just-need-to-get-freaky-with-it/",
       "tier": "news",
       "text": "📰 Onimusha: Way of the Sword proves the parry formula is far from stale, you just need to get freaky with it\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/action/onimusha-way-of-the-sword-proves-the-parry-formula-is-far-from-stale-you-just-need-to-get-freaky-with-it/",
@@ -320,46 +264,79 @@
         "news:https://www.pcgamesn.com/roblox/the-veil-codes"
       ],
       "added_at": "2026-09-06T16:28:15.996281+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/do-you-ever-listen-to-videogame-music-in-your-day-to-day-life/",
+      "tier": "news",
+      "text": "📰 Слушаете ли вы когда-нибудь музыку из видеоигр в своей повседневной жизни?\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/do-you-ever-listen-to-videogame-music-in-your-day-to-day-life/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/do-you-ever-listen-to-videogame-music-in-your-day-to-day-life/"
+      ],
+      "added_at": "2026-09-06T18:28:44.541490+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/",
+      "tier": "news",
+      "text": "📰 В GSC Game World говорят, что есть причина, по которой они не дали «Сталкеру 2» больше времени: «Чтобы сделать что-то лучше, вам нужно получать отзывы, и эти отзывы должны быть свежими»\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/"
+      ],
+      "added_at": "2026-09-06T18:28:44.541512+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/horror/the-halloween-game-has-a-sex-minigame-in-it-except-no-it-doesnt-because-it-was-apparently-removed/",
+      "tier": "news",
+      "text": "📰 В игре «Хэллоуин» есть мини-игра о сексе, но нет, потому что ее, очевидно, удалили.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/horror/the-halloween-game-has-a-sex-minigame-in-it-except-no-it-doesnt-because-it-was-apparently-removed/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/horror/the-halloween-game-has-a-sex-minigame-in-it-except-no-it-doesnt-because-it-was-apparently-removed/"
+      ],
+      "added_at": "2026-09-06T18:28:44.541519+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/mortal-shell-2/update-adaptive-difficulty",
+      "tier": "news",
+      "text": "📰 Новое обновление Mortal Shell 2 нарушает традицию Soulslike, предлагая экспериментальную адаптивную сложность.\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/mortal-shell-2/update-adaptive-difficulty",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/mortal-shell-2/update-adaptive-difficulty"
+      ],
+      "added_at": "2026-09-06T18:28:44.541524+00:00"
     }
   ],
   "queued_ids": [
-    "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
-    "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
-    "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
-    "steam:1623730",
-    "news:https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-proves-the-parry-formula-is-far-from-stale-you-just-need-to-get-freaky-with-it/",
-    "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
-    "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
-    "steam:3321460",
-    "news:https://www.pcgamesn.com/roblox/the-veil-codes",
-    "news:https://www.pcgamer.com/games/sim/i-never-thought-a-fishing-sim-could-be-this-fun-but-how-to-fish-proves-me-wrong-with-its-ridiculous-physics-killer-spider-crabs-and-classic-co-op-chaos/",
-    "gog:1084856569",
-    "steam:1174180",
-    "news:https://www.rockpapershotgun.com/the-sunday-papers-826",
-    "steam:1488462",
-    "news:https://www.pcgamesn.com/dawnwalker/coen-baldurs-gate-3-astarion-interview",
-    "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
-    "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
-    "steam:4656000",
-    "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
-    "news:https://www.pcgamesn.com/roblox/search-for-the-needle-codes",
     "steam:108600",
-    "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
-    "gog:1630907432",
-    "steam:2406770",
     "news:https://www.pcgamesn.com/valheim/sequel-interview",
-    "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
-    "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
-    "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
-    "gog:1329677183",
-    "gog:1765360308",
+    "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
+    "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
+    "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
+    "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
+    "news:https://www.rockpapershotgun.com/the-sunday-papers-826",
     "news:https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/",
-    "gog:1207658958"
+    "news:https://www.pcgamer.com/games/horror/the-halloween-game-has-a-sex-minigame-in-it-except-no-it-doesnt-because-it-was-apparently-removed/",
+    "steam:2406770",
+    "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
+    "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
+    "news:https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-proves-the-parry-formula-is-far-from-stale-you-just-need-to-get-freaky-with-it/",
+    "news:https://www.pcgamer.com/games/do-you-ever-listen-to-videogame-music-in-your-day-to-day-life/",
+    "news:https://www.pcgamesn.com/roblox/search-for-the-needle-codes",
+    "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
+    "steam:1623730",
+    "news:https://www.pcgamesn.com/dawnwalker/coen-baldurs-gate-3-astarion-interview",
+    "news:https://www.pcgamesn.com/roblox/the-veil-codes",
+    "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
+    "news:https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/",
+    "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
+    "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
+    "news:https://www.pcgamer.com/games/sim/i-never-thought-a-fishing-sim-could-be-this-fun-but-how-to-fish-proves-me-wrong-with-its-ridiculous-physics-killer-spider-crabs-and-classic-co-op-chaos/",
+    "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
+    "news:https://www.pcgamesn.com/mortal-shell-2/update-adaptive-difficulty",
+    "steam:3321460",
+    "steam:4656000",
+    "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously"
   ],
   "last_published": {
-    "deal": "2026-09-06T16:28:46.904627+00:00",
+    "deal": "2026-09-06T18:29:15.694283+00:00",
     "news": "2026-09-06T13:45:35.741539+00:00",
-    "hot": "2026-09-06T16:32:50.122407+00:00"
+    "hot": "2026-09-06T18:31:49.327353+00:00"
   },
   "known_game_titles": [
     "Warhammer 40,000: Space Marine 2",
