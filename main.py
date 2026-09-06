@@ -30,13 +30,13 @@ from sources import steam, epic, gog, news
 CURRENCIES = ("USD", "RUB", "KZT", "UAH", "BYN")
 
 # Минимальный процент скидки, начиная с которого игра вообще попадает в канал.
-MIN_DISCOUNT_STEAM = 40
-MIN_DISCOUNT_GOG = 40
-MIN_DISCOUNT_EPIC = 40
+MIN_DISCOUNT_STEAM = 20
+MIN_DISCOUNT_GOG = 50
+MIN_DISCOUNT_EPIC = 30
 
 # Скидки от этого процента считаются "горячими" (🔥) и публикуются
 # практически сразу, а не по обычному расписанию тира "deal".
-HOT_DISCOUNT_THRESHOLD = 70
+HOT_DISCOUNT_THRESHOLD = 60
 
 # От скольких новых скидок ОДНОГО издателя на ОДНОЙ платформе за один
 # запуск делать один общий пост вместо отдельного поста на каждую игру.
