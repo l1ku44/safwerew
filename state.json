@@ -332,41 +332,151 @@
         "news:https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/"
       ],
       "added_at": "2026-09-07T07:19:33.064768+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/this-week-in-pc-games-wardogs-shroom-and-gloom-a-heist-game-from-the-king-of-dragon-pass-creators-and-a-bullet-time-fps-inspired-by-fear",
+      "tier": "news",
+      "text": "📰 На этой неделе в играх для ПК: Wardogs, Shroom and Gloom, игра-ограбление от создателей King of Dragon Pass, а также буллет-тайм FPS, вдохновленный F.E.A.R.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/this-week-in-pc-games-wardogs-shroom-and-gloom-a-heist-game-from-the-king-of-dragon-pass-creators-and-a-bullet-time-fps-inspired-by-fear",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/this-week-in-pc-games-wardogs-shroom-and-gloom-a-heist-game-from-the-king-of-dragon-pass-creators-and-a-bullet-time-fps-inspired-by-fear"
+      ],
+      "added_at": "2026-09-07T13:33:08.185162+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/we-believe-in-the-power-of-connection-donald-trump-tetris-parody-game-rouses-the-mildly-worded-wrath-of-the-tetris-company",
+      "tier": "news",
+      "text": "📰 «Мы верим в силу связи»: пародийная игра «Тетрис» на Дональда Трампа вызывает мягковыраженный гнев компании Tetris\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/we-believe-in-the-power-of-connection-donald-trump-tetris-parody-game-rouses-the-mildly-worded-wrath-of-the-tetris-company",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/we-believe-in-the-power-of-connection-donald-trump-tetris-parody-game-rouses-the-mildly-worded-wrath-of-the-tetris-company"
+      ],
+      "added_at": "2026-09-07T13:33:08.185188+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/youll-be-able-to-engage-in-these-high-stakes-arms-races-civilizations-arc-of-tomorrow-update-is-trying-to-make-the-threat-of-nuclear-apocalypse-more-interesting",
+      "tier": "news",
+      "text": "📰 «Вы сможете участвовать в гонке вооружений с высокими ставками»: обновление Civilization’s Arc of Tomorrow пытается сделать угрозу ядерного апокалипсиса более интересной\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/youll-be-able-to-engage-in-these-high-stakes-arms-races-civilizations-arc-of-tomorrow-update-is-trying-to-make-the-threat-of-nuclear-apocalypse-more-interesting",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/youll-be-able-to-engage-in-these-high-stakes-arms-races-civilizations-arc-of-tomorrow-update-is-trying-to-make-the-threat-of-nuclear-apocalypse-more-interesting"
+      ],
+      "added_at": "2026-09-07T13:33:08.185192+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/final-fantasy/square-enix-wants-final-fantasy-7-to-be-an-ip-with-an-ever-evolving-future-which-is-strange-to-say-about-a-franchise-thats-already-ever-evolving/",
+      "tier": "news",
+      "text": "📰 Square Enix хочет, чтобы Final Fantasy 7 была «интеллектуальной игрой с постоянно развивающимся будущим», что странно говорить о франшизе, которая уже постоянно развивается.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/final-fantasy/square-enix-wants-final-fantasy-7-to-be-an-ip-with-an-ever-evolving-future-which-is-strange-to-say-about-a-franchise-thats-already-ever-evolving/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/final-fantasy/square-enix-wants-final-fantasy-7-to-be-an-ip-with-an-ever-evolving-future-which-is-strange-to-say-about-a-franchise-thats-already-ever-evolving/"
+      ],
+      "added_at": "2026-09-07T13:33:08.185195+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/hardware/graphics-cards/new-dlss-5-mod-offloads-neural-rendering-to-a-second-card-massively-cutting-the-ai-filters-performance-hit/",
+      "tier": "news",
+      "text": "📰 Новый мод DLSS 5 переносит нейронный рендеринг на вторую карту, значительно снижая производительность фильтра AI\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/hardware/graphics-cards/new-dlss-5-mod-offloads-neural-rendering-to-a-second-card-massively-cutting-the-ai-filters-performance-hit/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/hardware/graphics-cards/new-dlss-5-mod-offloads-neural-rendering-to-a-second-card-massively-cutting-the-ai-filters-performance-hit/"
+      ],
+      "added_at": "2026-09-07T13:33:08.185199+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/hardware/graphics-cards/once-again-it-is-genuinely-cheaper-for-me-to-fly-to-pax-west-and-track-down-nvidias-geforce-evangelist-rather-than-buy-the-rtx-5090-anywhere-else/",
+      "tier": "news",
+      "text": "📰 Еще раз: для меня действительно дешевле полететь на PAX West и разыскать «евангелиста GeForce» от Nvidia, чем покупать RTX 5090 где-либо еще.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/hardware/graphics-cards/once-again-it-is-genuinely-cheaper-for-me-to-fly-to-pax-west-and-track-down-nvidias-geforce-evangelist-rather-than-buy-the-rtx-5090-anywhere-else/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/hardware/graphics-cards/once-again-it-is-genuinely-cheaper-for-me-to-fly-to-pax-west-and-track-down-nvidias-geforce-evangelist-rather-than-buy-the-rtx-5090-anywhere-else/"
+      ],
+      "added_at": "2026-09-07T13:33:08.185202+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/roblox/last-stop-codes",
+      "tier": "news",
+      "text": "📰 Коды последней остановки (сентябрь 2026 г.)\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/roblox/last-stop-codes",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/roblox/last-stop-codes"
+      ],
+      "added_at": "2026-09-07T13:33:08.185205+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/valheim/lox-tame-breed-ride-saddle",
+      "tier": "news",
+      "text": "📰 Как приручить лосей в Вальхейме и покататься на них в седле\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/valheim/lox-tame-breed-ride-saddle",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/valheim/lox-tame-breed-ride-saddle"
+      ],
+      "added_at": "2026-09-07T13:33:08.185212+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-dlc-gamescom-preview",
+      "tier": "news",
+      "text": "📰 «Ведьмак 3: Песни прошлого» — это не приманка для ностальгии, а долгожданная эволюция культового RPG от CDPR.\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-dlc-gamescom-preview",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-dlc-gamescom-preview"
+      ],
+      "added_at": "2026-09-07T13:33:08.185216+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/roblox/journey-to-the-watchtower-codes",
+      "tier": "news",
+      "text": "📰 Путешествие к кодам Сторожевой Башни (сентябрь 2026 г.)\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/roblox/journey-to-the-watchtower-codes",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/roblox/journey-to-the-watchtower-codes"
+      ],
+      "added_at": "2026-09-07T13:33:08.185220+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/2xko/marc-merrill-pax-interview-not-mistake",
+      "tier": "news",
+      "text": "📰 2XKO не был «ошибкой», говорит Марк Меррилл из Riot. «Мы создали игру, которая сопряжена с риском»\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/2xko/marc-merrill-pax-interview-not-mistake",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/2xko/marc-merrill-pax-interview-not-mistake"
+      ],
+      "added_at": "2026-09-07T13:33:08.185223+00:00"
     }
   ],
   "queued_ids": [
-    "news:https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/",
-    "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
+    "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
+    "news:https://www.pcgamesn.com/valheim/sequel-interview",
+    "news:https://www.rockpapershotgun.com/we-believe-in-the-power-of-connection-donald-trump-tetris-parody-game-rouses-the-mildly-worded-wrath-of-the-tetris-company",
+    "news:https://www.pcgamer.com/games/sim/i-never-thought-a-fishing-sim-could-be-this-fun-but-how-to-fish-proves-me-wrong-with-its-ridiculous-physics-killer-spider-crabs-and-classic-co-op-chaos/",
+    "news:https://www.pcgamer.com/games/action/18-years-after-metal-gear-solid-4-first-launched-a-modder-has-shown-off-its-first-modded-map-mgs3s-groznyj-grad/",
     "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
     "news:https://www.pcgamesn.com/dawnwalker/coen-baldurs-gate-3-astarion-interview",
-    "news:https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/",
+    "news:https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-proves-the-parry-formula-is-far-from-stale-you-just-need-to-get-freaky-with-it/",
+    "news:https://www.rockpapershotgun.com/the-sunday-papers-826",
+    "news:https://www.rockpapershotgun.com/this-week-in-pc-games-wardogs-shroom-and-gloom-a-heist-game-from-the-king-of-dragon-pass-creators-and-a-bullet-time-fps-inspired-by-fear",
+    "news:https://www.pcgamesn.com/roblox/last-stop-codes",
+    "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/",
+    "news:https://www.rockpapershotgun.com/youll-be-able-to-engage-in-these-high-stakes-arms-races-civilizations-arc-of-tomorrow-update-is-trying-to-make-the-threat-of-nuclear-apocalypse-more-interesting",
+    "news:https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/",
+    "news:https://www.pcgamer.com/games/rpg/a-hobby-dev-built-a-free-3d-galaxy-map-for-warhammer-40k-that-loads-like-lightning-in-your-browser/",
     "news:https://www.pcgamesn.com/mortal-shell-2/update-adaptive-difficulty",
+    "news:https://www.pcgamer.com/hardware/graphics-cards/once-again-it-is-genuinely-cheaper-for-me-to-fly-to-pax-west-and-track-down-nvidias-geforce-evangelist-rather-than-buy-the-rtx-5090-anywhere-else/",
+    "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
+    "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
+    "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
+    "news:https://www.pcgamer.com/games/final-fantasy/square-enix-wants-final-fantasy-7-to-be-an-ip-with-an-ever-evolving-future-which-is-strange-to-say-about-a-franchise-thats-already-ever-evolving/",
+    "news:https://www.pcgamer.com/gaming-industry/the-tetris-company-confirms-it-had-nothing-to-do-with-the-white-houses-racist-rip-off-we-believe-in-the-power-of-connection-and-bringing-people-together-not-dividing-them/",
     "news:https://www.pcgamer.com/gaming-industry/saber-cco-tim-willits-is-still-bullish-on-ai-but-concerned-about-its-environmental-impact-elon-wants-to-put-servers-in-space-that-could-be-the-answer-right/",
     "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
-    "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
-    "news:https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-proves-the-parry-formula-is-far-from-stale-you-just-need-to-get-freaky-with-it/",
-    "news:https://www.pcgamer.com/games/rpg/a-hobby-dev-built-a-free-3d-galaxy-map-for-warhammer-40k-that-loads-like-lightning-in-your-browser/",
-    "news:https://www.pcgamesn.com/roblox/the-veil-codes",
-    "news:https://www.pcgamesn.com/valheim/sequel-interview",
-    "news:https://www.pcgamer.com/games/action/there-is-absolutely-no-generative-ai-in-space-marine-3-promises-saber-interactive-executive/",
-    "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
-    "news:https://www.pcgamer.com/games/do-you-ever-listen-to-videogame-music-in-your-day-to-day-life/",
-    "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
-    "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/",
     "news:https://www.pcgamer.com/games/rpg/if-youre-designing-an-rpg-you-have-to-go-back-to-the-source-the-post-apocalyptic-rpg-entropy-takes-notes-from-fallout-and-a-long-abandoned-warhammer-spinoff/",
-    "news:https://www.pcgamer.com/games/sim/i-never-thought-a-fishing-sim-could-be-this-fun-but-how-to-fish-proves-me-wrong-with-its-ridiculous-physics-killer-spider-crabs-and-classic-co-op-chaos/",
-    "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
-    "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
-    "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
+    "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
     "news:https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/",
-    "news:https://www.pcgamer.com/games/action/18-years-after-metal-gear-solid-4-first-launched-a-modder-has-shown-off-its-first-modded-map-mgs3s-groznyj-grad/",
-    "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
     "news:https://www.pcgamer.com/games/horror/the-halloween-game-has-a-sex-minigame-in-it-except-no-it-doesnt-because-it-was-apparently-removed/",
-    "news:https://www.pcgamesn.com/roblox/search-for-the-needle-codes",
-    "news:https://www.rockpapershotgun.com/the-sunday-papers-826",
-    "news:https://www.pcgamer.com/gaming-industry/the-tetris-company-confirms-it-had-nothing-to-do-with-the-white-houses-racist-rip-off-we-believe-in-the-power-of-connection-and-bringing-people-together-not-dividing-them/",
     "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
-    "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job"
+    "news:https://www.pcgamer.com/hardware/graphics-cards/new-dlss-5-mod-offloads-neural-rendering-to-a-second-card-massively-cutting-the-ai-filters-performance-hit/",
+    "news:https://www.pcgamesn.com/roblox/journey-to-the-watchtower-codes",
+    "news:https://www.pcgamer.com/games/action/there-is-absolutely-no-generative-ai-in-space-marine-3-promises-saber-interactive-executive/",
+    "news:https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/",
+    "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
+    "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
+    "news:https://www.pcgamesn.com/2xko/marc-merrill-pax-interview-not-mistake",
+    "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
+    "news:https://www.pcgamesn.com/roblox/the-veil-codes",
+    "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
+    "news:https://www.pcgamesn.com/roblox/search-for-the-needle-codes",
+    "news:https://www.pcgamer.com/games/do-you-ever-listen-to-videogame-music-in-your-day-to-day-life/",
+    "news:https://www.pcgamesn.com/valheim/lox-tame-breed-ride-saddle",
+    "news:https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-dlc-gamescom-preview"
   ],
   "last_published": {
     "deal": "2026-09-07T07:19:33.537436+00:00",
