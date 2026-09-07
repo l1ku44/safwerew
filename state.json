@@ -1,59 +1,52 @@
 {
   "posted_deals": [
-    "gog:1116827902",
-    "steam:1623730",
-    "gog:1115004086",
-    "gog:1249359495",
-    "gog:1810099340",
-    "steam:1174180",
-    "epic:b8cc76ce7d6645f0a282b843a072cc78",
-    "gog:1877761297",
-    "gog:1462182139",
-    "gog:1465406009",
-    "gog:1428305992",
-    "gog:1084856569",
-    "gog:2147483119",
-    "gog:1630907432",
-    "gog:1184250115",
-    "steam:2406770",
-    "gog:1929434313",
     "gog:1254210921",
-    "gog:1170675521",
-    "gog:1318083561",
-    "steam:311210",
-    "steam:2183900",
-    "steam:1488462",
-    "steam:108600",
-    "gog:1859396546",
-    "gog:1329677183",
-    "gog:1623863915",
-    "gog:1638321975",
-    "steam:3240220",
-    "steam:4656000",
-    "gog:1211776926",
-    "gog:1321737474",
-    "steam:1326470",
-    "gog:1599346921",
+    "gog:1115004086",
     "gog:1153735119",
-    "gog:1765360308",
-    "gog:1492542624",
-    "gog:1207667163",
-    "gog:1323998332",
+    "gog:1428305992",
+    "gog:1929434313",
     "steam:3321460",
+    "gog:1465406009",
+    "epic:b8cc76ce7d6645f0a282b843a072cc78",
+    "gog:1765360308",
+    "gog:1170675521",
+    "gog:2147483119",
+    "gog:1249359495",
+    "steam:4656000",
+    "gog:1207667163",
+    "steam:2406770",
+    "gog:1323998332",
+    "steam:1326470",
+    "gog:1116827902",
+    "gog:1184250115",
+    "gog:1630907432",
+    "gog:1859396546",
+    "gog:1638321975",
+    "gog:1877761297",
+    "gog:1211776926",
+    "gog:1318083561",
     "gog:2137859649",
-    "gog:1207658958"
+    "gog:1329677183",
+    "gog:1462182139",
+    "steam:1623730",
+    "steam:1174180",
+    "gog:1084856569",
+    "steam:311210",
+    "steam:3240220",
+    "steam:108600",
+    "gog:1599346921",
+    "steam:1488462",
+    "gog:1810099340",
+    "gog:1492542624",
+    "gog:1207658958",
+    "gog:1321737474",
+    "gog:1623863915",
+    "steam:2183900"
   ],
-  "posted_news": [],
+  "posted_news": [
+    "news:https://www.rockpapershotgun.com/the-sunday-papers-826"
+  ],
   "queue": [
-    {
-      "id": "news:https://www.rockpapershotgun.com/the-sunday-papers-826",
-      "tier": "news",
-      "text": "📰 Воскресные газеты\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/the-sunday-papers-826",
-      "member_ids": [
-        "news:https://www.rockpapershotgun.com/the-sunday-papers-826"
-      ],
-      "added_at": "2026-09-06T13:46:22.412460+00:00"
-    },
     {
       "id": "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
       "tier": "news",
@@ -431,56 +424,175 @@
         "news:https://www.pcgamesn.com/2xko/marc-merrill-pax-interview-not-mistake"
       ],
       "added_at": "2026-09-07T13:33:08.185223+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/new-horror-game-the-well-is-not-empty-combines-photophobic-monsters-with-timer-light-switches-and-a-lot-of-frenzied-digging",
+      "tier": "news",
+      "text": "📰 Новая игра ужасов The Well Is Not Empty сочетает в себе фотофобных монстров, таймерные выключатели и безумное копание.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/new-horror-game-the-well-is-not-empty-combines-photophobic-monsters-with-timer-light-switches-and-a-lot-of-frenzied-digging",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/new-horror-game-the-well-is-not-empty-combines-photophobic-monsters-with-timer-light-switches-and-a-lot-of-frenzied-digging"
+      ],
+      "added_at": "2026-09-07T18:21:47.811593+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/combat-and-socially-agonised-teens-impress-in-persona-4-revival-the-rpg-that-series-director-kazuhisa-wada-feels-a-duty-to-make",
+      "tier": "news",
+      "text": "📰 Подростки, страдающие от боевых действий и социальных агоний, впечатляют в Persona 4 Revival, RPG, который режиссер сериала Казухиса Вада считает своим «долгом» создать.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/combat-and-socially-agonised-teens-impress-in-persona-4-revival-the-rpg-that-series-director-kazuhisa-wada-feels-a-duty-to-make",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/combat-and-socially-agonised-teens-impress-in-persona-4-revival-the-rpg-that-series-director-kazuhisa-wada-feels-a-duty-to-make"
+      ],
+      "added_at": "2026-09-07T18:21:47.811620+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/action/capcom-expresses-continued-interest-in-re-activating-ips-as-the-first-new-onimusha-game-in-20-years-surpasses-1-million-sales-on-launch-day/",
+      "tier": "news",
+      "text": "📰 Capcom выражает постоянный интерес к «реактивации IP-адресов», поскольку первая новая игра Onimusha за 20 лет превысила 1 миллион продаж в день запуска\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/action/capcom-expresses-continued-interest-in-re-activating-ips-as-the-first-new-onimusha-game-in-20-years-surpasses-1-million-sales-on-launch-day/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/action/capcom-expresses-continued-interest-in-re-activating-ips-as-the-first-new-onimusha-game-in-20-years-surpasses-1-million-sales-on-launch-day/"
+      ],
+      "added_at": "2026-09-07T18:21:47.811627+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/software/ai/openai-publicly-acknowledges-the-german-wiki-incident-weeks-after-first-finding-out-about-it/",
+      "tier": "news",
+      "text": "📰 OpenAI публично признает немецкий «вики-инцидент» через несколько недель после того, как впервые узнал о нем\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/software/ai/openai-publicly-acknowledges-the-german-wiki-incident-weeks-after-first-finding-out-about-it/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/software/ai/openai-publicly-acknowledges-the-german-wiki-incident-weeks-after-first-finding-out-about-it/"
+      ],
+      "added_at": "2026-09-07T18:21:47.811632+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/mmo/riot-mmos-future-is-incredibly-bright-despite-co-founder-likening-its-development-to-the-grail-many-a-brave-knight-are-going-to-die/",
+      "tier": "news",
+      "text": "📰 Будущее Riot MMO «невероятно светлое», несмотря на то, что соучредитель сравнил его развитие с Граалем: «Многие храбрые рыцари умрут»\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/mmo/riot-mmos-future-is-incredibly-bright-despite-co-founder-likening-its-development-to-the-grail-many-a-brave-knight-are-going-to-die/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/mmo/riot-mmos-future-is-incredibly-bright-despite-co-founder-likening-its-development-to-the-grail-many-a-brave-knight-are-going-to-die/"
+      ],
+      "added_at": "2026-09-07T18:21:47.811637+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/software/ai/jensen-huang-says-100-000-nvidia-gpus-were-used-to-train-openais-latest-model-gpt-6-astra-and-theres-already-plans-to-bring-quadruple-that-amount-of-hardware-online/",
+      "tier": "news",
+      "text": "📰 Дженсен Хуанг говорит, что для обучения последней модели OpenAI, GPT-6 Astra, было использовано 100 000 графических процессоров Nvidia, и уже есть планы разместить в четыре раза больше оборудования в сети.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/software/ai/jensen-huang-says-100-000-nvidia-gpus-were-used-to-train-openais-latest-model-gpt-6-astra-and-theres-already-plans-to-bring-quadruple-that-amount-of-hardware-online/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/software/ai/jensen-huang-says-100-000-nvidia-gpus-were-used-to-train-openais-latest-model-gpt-6-astra-and-theres-already-plans-to-bring-quadruple-that-amount-of-hardware-online/"
+      ],
+      "added_at": "2026-09-07T18:21:47.811642+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/hardware/controllers/scuf-omega-review/",
+      "tier": "news",
+      "text": "📰 Обзор Скаф Омега\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/hardware/controllers/scuf-omega-review/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/hardware/controllers/scuf-omega-review/"
+      ],
+      "added_at": "2026-09-07T18:21:47.811648+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-player-count",
+      "tier": "news",
+      "text": "📰 Бета-версия Modern Warfare 4 сумела сделать то, чего не удалось Black Ops 7 на Steam\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-player-count",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-player-count"
+      ],
+      "added_at": "2026-09-07T18:21:47.811657+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/valheim/iron-how-to-get-iron-scraps",
+      "tier": "news",
+      "text": "📰 Где найти железо Валхейма и все рецепты крафта\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/valheim/iron-how-to-get-iron-scraps",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/valheim/iron-how-to-get-iron-scraps"
+      ],
+      "added_at": "2026-09-07T18:21:47.811663+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/valheim/bonemass-guide",
+      "tier": "news",
+      "text": "📰 Гайд босса Valheim Bonemass — как победить третьего босса\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/valheim/bonemass-guide",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/valheim/bonemass-guide"
+      ],
+      "added_at": "2026-09-07T18:21:47.811668+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/roblox/military-army-tycoon-codes",
+      "tier": "news",
+      "text": "📰 Коды Military Army Tycoon (сентябрь 2026 г.)\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/roblox/military-army-tycoon-codes",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/roblox/military-army-tycoon-codes"
+      ],
+      "added_at": "2026-09-07T18:21:47.811673+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/halloween-the-game/sex-minigame-removed",
+      "tier": "news",
+      "text": "📰 Halloween The Game уже удалила свою очень странную секс-мини-игру\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/halloween-the-game/sex-minigame-removed",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/halloween-the-game/sex-minigame-removed"
+      ],
+      "added_at": "2026-09-07T18:21:47.811678+00:00"
     }
   ],
   "queued_ids": [
+    "news:https://www.pcgamer.com/games/action/capcom-expresses-continued-interest-in-re-activating-ips-as-the-first-new-onimusha-game-in-20-years-surpasses-1-million-sales-on-launch-day/",
+    "news:https://www.pcgamer.com/games/rpg/a-hobby-dev-built-a-free-3d-galaxy-map-for-warhammer-40k-that-loads-like-lightning-in-your-browser/",
     "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
-    "news:https://www.pcgamesn.com/valheim/sequel-interview",
-    "news:https://www.rockpapershotgun.com/we-believe-in-the-power-of-connection-donald-trump-tetris-parody-game-rouses-the-mildly-worded-wrath-of-the-tetris-company",
-    "news:https://www.pcgamer.com/games/sim/i-never-thought-a-fishing-sim-could-be-this-fun-but-how-to-fish-proves-me-wrong-with-its-ridiculous-physics-killer-spider-crabs-and-classic-co-op-chaos/",
+    "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
+    "news:https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/",
+    "news:https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-player-count",
+    "news:https://www.rockpapershotgun.com/new-horror-game-the-well-is-not-empty-combines-photophobic-monsters-with-timer-light-switches-and-a-lot-of-frenzied-digging",
+    "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
+    "news:https://www.pcgamesn.com/roblox/the-veil-codes",
+    "news:https://www.pcgamer.com/games/do-you-ever-listen-to-videogame-music-in-your-day-to-day-life/",
+    "news:https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-dlc-gamescom-preview",
+    "news:https://www.pcgamesn.com/roblox/journey-to-the-watchtower-codes",
+    "news:https://www.pcgamer.com/software/ai/openai-publicly-acknowledges-the-german-wiki-incident-weeks-after-first-finding-out-about-it/",
     "news:https://www.pcgamer.com/games/action/18-years-after-metal-gear-solid-4-first-launched-a-modder-has-shown-off-its-first-modded-map-mgs3s-groznyj-grad/",
-    "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
+    "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
+    "news:https://www.pcgamer.com/software/ai/jensen-huang-says-100-000-nvidia-gpus-were-used-to-train-openais-latest-model-gpt-6-astra-and-theres-already-plans-to-bring-quadruple-that-amount-of-hardware-online/",
+    "news:https://www.pcgamer.com/games/rpg/if-youre-designing-an-rpg-you-have-to-go-back-to-the-source-the-post-apocalyptic-rpg-entropy-takes-notes-from-fallout-and-a-long-abandoned-warhammer-spinoff/",
+    "news:https://www.rockpapershotgun.com/combat-and-socially-agonised-teens-impress-in-persona-4-revival-the-rpg-that-series-director-kazuhisa-wada-feels-a-duty-to-make",
+    "news:https://www.rockpapershotgun.com/we-believe-in-the-power-of-connection-donald-trump-tetris-parody-game-rouses-the-mildly-worded-wrath-of-the-tetris-company",
     "news:https://www.pcgamesn.com/dawnwalker/coen-baldurs-gate-3-astarion-interview",
     "news:https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-proves-the-parry-formula-is-far-from-stale-you-just-need-to-get-freaky-with-it/",
-    "news:https://www.rockpapershotgun.com/the-sunday-papers-826",
-    "news:https://www.rockpapershotgun.com/this-week-in-pc-games-wardogs-shroom-and-gloom-a-heist-game-from-the-king-of-dragon-pass-creators-and-a-bullet-time-fps-inspired-by-fear",
-    "news:https://www.pcgamesn.com/roblox/last-stop-codes",
-    "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/",
-    "news:https://www.rockpapershotgun.com/youll-be-able-to-engage-in-these-high-stakes-arms-races-civilizations-arc-of-tomorrow-update-is-trying-to-make-the-threat-of-nuclear-apocalypse-more-interesting",
-    "news:https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/",
-    "news:https://www.pcgamer.com/games/rpg/a-hobby-dev-built-a-free-3d-galaxy-map-for-warhammer-40k-that-loads-like-lightning-in-your-browser/",
-    "news:https://www.pcgamesn.com/mortal-shell-2/update-adaptive-difficulty",
-    "news:https://www.pcgamer.com/hardware/graphics-cards/once-again-it-is-genuinely-cheaper-for-me-to-fly-to-pax-west-and-track-down-nvidias-geforce-evangelist-rather-than-buy-the-rtx-5090-anywhere-else/",
-    "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
-    "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
-    "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
-    "news:https://www.pcgamer.com/games/final-fantasy/square-enix-wants-final-fantasy-7-to-be-an-ip-with-an-ever-evolving-future-which-is-strange-to-say-about-a-franchise-thats-already-ever-evolving/",
-    "news:https://www.pcgamer.com/gaming-industry/the-tetris-company-confirms-it-had-nothing-to-do-with-the-white-houses-racist-rip-off-we-believe-in-the-power-of-connection-and-bringing-people-together-not-dividing-them/",
-    "news:https://www.pcgamer.com/gaming-industry/saber-cco-tim-willits-is-still-bullish-on-ai-but-concerned-about-its-environmental-impact-elon-wants-to-put-servers-in-space-that-could-be-the-answer-right/",
-    "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
-    "news:https://www.pcgamer.com/games/rpg/if-youre-designing-an-rpg-you-have-to-go-back-to-the-source-the-post-apocalyptic-rpg-entropy-takes-notes-from-fallout-and-a-long-abandoned-warhammer-spinoff/",
-    "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
-    "news:https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/",
-    "news:https://www.pcgamer.com/games/horror/the-halloween-game-has-a-sex-minigame-in-it-except-no-it-doesnt-because-it-was-apparently-removed/",
-    "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
-    "news:https://www.pcgamer.com/hardware/graphics-cards/new-dlss-5-mod-offloads-neural-rendering-to-a-second-card-massively-cutting-the-ai-filters-performance-hit/",
-    "news:https://www.pcgamesn.com/roblox/journey-to-the-watchtower-codes",
-    "news:https://www.pcgamer.com/games/action/there-is-absolutely-no-generative-ai-in-space-marine-3-promises-saber-interactive-executive/",
-    "news:https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/",
-    "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
-    "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
-    "news:https://www.pcgamesn.com/2xko/marc-merrill-pax-interview-not-mistake",
-    "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
-    "news:https://www.pcgamesn.com/roblox/the-veil-codes",
-    "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
     "news:https://www.pcgamesn.com/roblox/search-for-the-needle-codes",
-    "news:https://www.pcgamer.com/games/do-you-ever-listen-to-videogame-music-in-your-day-to-day-life/",
+    "news:https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/",
+    "news:https://www.pcgamer.com/hardware/graphics-cards/once-again-it-is-genuinely-cheaper-for-me-to-fly-to-pax-west-and-track-down-nvidias-geforce-evangelist-rather-than-buy-the-rtx-5090-anywhere-else/",
+    "news:https://www.pcgamer.com/gaming-industry/the-tetris-company-confirms-it-had-nothing-to-do-with-the-white-houses-racist-rip-off-we-believe-in-the-power-of-connection-and-bringing-people-together-not-dividing-them/",
+    "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
+    "news:https://www.pcgamesn.com/roblox/military-army-tycoon-codes",
+    "news:https://www.pcgamer.com/games/final-fantasy/square-enix-wants-final-fantasy-7-to-be-an-ip-with-an-ever-evolving-future-which-is-strange-to-say-about-a-franchise-thats-already-ever-evolving/",
+    "news:https://www.pcgamesn.com/2xko/marc-merrill-pax-interview-not-mistake",
+    "news:https://www.pcgamesn.com/mortal-shell-2/update-adaptive-difficulty",
+    "news:https://www.rockpapershotgun.com/this-week-in-pc-games-wardogs-shroom-and-gloom-a-heist-game-from-the-king-of-dragon-pass-creators-and-a-bullet-time-fps-inspired-by-fear",
+    "news:https://www.pcgamesn.com/valheim/sequel-interview",
+    "news:https://www.rockpapershotgun.com/youll-be-able-to-engage-in-these-high-stakes-arms-races-civilizations-arc-of-tomorrow-update-is-trying-to-make-the-threat-of-nuclear-apocalypse-more-interesting",
+    "news:https://www.pcgamer.com/gaming-industry/saber-cco-tim-willits-is-still-bullish-on-ai-but-concerned-about-its-environmental-impact-elon-wants-to-put-servers-in-space-that-could-be-the-answer-right/",
+    "news:https://www.pcgamer.com/games/action/there-is-absolutely-no-generative-ai-in-space-marine-3-promises-saber-interactive-executive/",
+    "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
+    "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
+    "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
+    "news:https://www.pcgamer.com/hardware/controllers/scuf-omega-review/",
+    "news:https://www.pcgamesn.com/valheim/iron-how-to-get-iron-scraps",
+    "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
+    "news:https://www.pcgamesn.com/roblox/last-stop-codes",
+    "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
+    "news:https://www.pcgamer.com/games/mmo/riot-mmos-future-is-incredibly-bright-despite-co-founder-likening-its-development-to-the-grail-many-a-brave-knight-are-going-to-die/",
+    "news:https://www.pcgamesn.com/halloween-the-game/sex-minigame-removed",
+    "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
+    "news:https://www.pcgamer.com/games/horror/the-halloween-game-has-a-sex-minigame-in-it-except-no-it-doesnt-because-it-was-apparently-removed/",
+    "news:https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/",
+    "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/",
+    "news:https://www.pcgamer.com/hardware/graphics-cards/new-dlss-5-mod-offloads-neural-rendering-to-a-second-card-massively-cutting-the-ai-filters-performance-hit/",
     "news:https://www.pcgamesn.com/valheim/lox-tame-breed-ride-saddle",
-    "news:https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-dlc-gamescom-preview"
+    "news:https://www.pcgamesn.com/valheim/bonemass-guide",
+    "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
+    "news:https://www.pcgamer.com/games/sim/i-never-thought-a-fishing-sim-could-be-this-fun-but-how-to-fish-proves-me-wrong-with-its-ridiculous-physics-killer-spider-crabs-and-classic-co-op-chaos/"
   ],
   "last_published": {
     "deal": "2026-09-07T07:19:33.537436+00:00",
-    "news": "2026-09-06T13:45:35.741539+00:00",
+    "news": "2026-09-07T18:21:48.289384+00:00",
     "hot": "2026-09-06T18:31:49.327353+00:00"
   },
   "known_game_titles": [
