@@ -599,70 +599,180 @@
         "news:https://www.pcgamesn.com/nodusfall/monster-hunter-meets-elden-ring-gamescom"
       ],
       "added_at": "2026-09-08T11:00:04.642390+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/trump-regimes-tetris-ripoff-yanked-from-white-house-website-after-tetris-company-declare-they-take-copyright-infringement-very-seriously",
+      "tier": "news",
+      "text": "📰 Копию тетрис режима Трампа убрали с веб-сайта Белого дома после того, как компания Tetris заявила, что «очень серьезно относится к нарушению авторских прав»\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/trump-regimes-tetris-ripoff-yanked-from-white-house-website-after-tetris-company-declare-they-take-copyright-infringement-very-seriously",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/trump-regimes-tetris-ripoff-yanked-from-white-house-website-after-tetris-company-declare-they-take-copyright-infringement-very-seriously"
+      ],
+      "added_at": "2026-09-08T14:53:59.081299+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/material-uncertainty-hangs-over-the-future-of-life-is-strange-developers-dont-nod-beyond-january-2027-as-negotiations-over-potential-layoffs-begin",
+      "tier": "news",
+      "text": "📰 «Материальная неопределенность» нависла над будущим разработчиков Life is Strange. Не кивайте после января 2027 года, поскольку начинаются переговоры о возможных увольнениях.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/material-uncertainty-hangs-over-the-future-of-life-is-strange-developers-dont-nod-beyond-january-2027-as-negotiations-over-potential-layoffs-begin",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/material-uncertainty-hangs-over-the-future-of-life-is-strange-developers-dont-nod-beyond-january-2027-as-negotiations-over-potential-layoffs-begin"
+      ],
+      "added_at": "2026-09-08T14:53:59.081325+00:00"
+    },
+    {
+      "id": "news:https://www.rockpapershotgun.com/20-players-is-the-sweet-spot-guild-wars-3s-action-game-combat-is-a-first-for-mmos-but-it-doesnt-work-at-traditional-raid-scale",
+      "tier": "news",
+      "text": "📰 «20 игроков — это самое лучшее»: боевая игра в Guild Wars 3 — первая для MMO, но она не работает в традиционном рейдовом масштабе.\nИсточник: Rock Paper Shotgun\n\nhttps://www.rockpapershotgun.com/20-players-is-the-sweet-spot-guild-wars-3s-action-game-combat-is-a-first-for-mmos-but-it-doesnt-work-at-traditional-raid-scale",
+      "member_ids": [
+        "news:https://www.rockpapershotgun.com/20-players-is-the-sweet-spot-guild-wars-3s-action-game-combat-is-a-first-for-mmos-but-it-doesnt-work-at-traditional-raid-scale"
+      ],
+      "added_at": "2026-09-08T14:53:59.081333+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/the-elder-scrolls/former-skyrim-co-lead-says-bethesda-making-starfield-instead-of-tes6-came-out-of-nowhere-it-was-very-much-guess-what-team-were-making-this-space-game/",
+      "tier": "news",
+      "text": "📰 Бывший соруководитель Skyrim говорит, что создание Bethesda Starfield вместо TES6 возникло из ниоткуда: «Это было очень важно: угадайте, что, команда? Мы делаем эту космическую игру»\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/the-elder-scrolls/former-skyrim-co-lead-says-bethesda-making-starfield-instead-of-tes6-came-out-of-nowhere-it-was-very-much-guess-what-team-were-making-this-space-game/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/the-elder-scrolls/former-skyrim-co-lead-says-bethesda-making-starfield-instead-of-tes6-came-out-of-nowhere-it-was-very-much-guess-what-team-were-making-this-space-game/"
+      ],
+      "added_at": "2026-09-08T14:53:59.081339+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/games/survival-crafting/valheim-review/",
+      "tier": "news",
+      "text": "📰 Обзор Валхайм 1.0\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/games/survival-crafting/valheim-review/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/games/survival-crafting/valheim-review/"
+      ],
+      "added_at": "2026-09-08T14:53:59.081344+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/hardware/chinese-memory-makers-have-reportedly-stocked-up-on-enough-western-duv-machines-for-the-next-three-years-of-expansion/",
+      "tier": "news",
+      "text": "📰 Сообщается, что китайские производители памяти запаслись достаточным количеством западных машин DUV на следующие три года расширения.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/hardware/chinese-memory-makers-have-reportedly-stocked-up-on-enough-western-duv-machines-for-the-next-three-years-of-expansion/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/hardware/chinese-memory-makers-have-reportedly-stocked-up-on-enough-western-duv-machines-for-the-next-three-years-of-expansion/"
+      ],
+      "added_at": "2026-09-08T14:53:59.081349+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/hardware/controllers/steelseries-throws-everything-but-the-kitchen-sink-in-the-feature-list-of-its-aeon-pro-controller/",
+      "tier": "news",
+      "text": "📰 SteelSeries включила в список функций своего контроллера Aeon Pro все, кроме кухонной мойки.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/hardware/controllers/steelseries-throws-everything-but-the-kitchen-sink-in-the-feature-list-of-its-aeon-pro-controller/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/hardware/controllers/steelseries-throws-everything-but-the-kitchen-sink-in-the-feature-list-of-its-aeon-pro-controller/"
+      ],
+      "added_at": "2026-09-08T14:53:59.081354+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamer.com/hardware/processors/sources-say-another-10-percent-price-increase-for-intel-cpus-is-on-the-way-and-it-could-be-here-as-soon-as-october/",
+      "tier": "news",
+      "text": "📰 Источники сообщают, что ожидается еще одно повышение цен на процессоры Intel на 10%, и оно может произойти уже в октябре.\nИсточник: PC Gamer\n\nhttps://www.pcgamer.com/hardware/processors/sources-say-another-10-percent-price-increase-for-intel-cpus-is-on-the-way-and-it-could-be-here-as-soon-as-october/",
+      "member_ids": [
+        "news:https://www.pcgamer.com/hardware/processors/sources-say-another-10-percent-price-increase-for-intel-cpus-is-on-the-way-and-it-could-be-here-as-soon-as-october/"
+      ],
+      "added_at": "2026-09-08T14:53:59.081363+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/roblox/build-a-golem-codes",
+      "tier": "news",
+      "text": "📰 Коды создания Голема (сентябрь 2026 г.)\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/roblox/build-a-golem-codes",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/roblox/build-a-golem-codes"
+      ],
+      "added_at": "2026-09-08T14:53:59.081369+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/marvel-rivals/loki-removed",
+      "tier": "news",
+      "text": "📰 Да, где, черт возьми, прячется Локи в Marvel Rivals, NetEase?\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/marvel-rivals/loki-removed",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/marvel-rivals/loki-removed"
+      ],
+      "added_at": "2026-09-08T14:53:59.081374+00:00"
+    },
+    {
+      "id": "news:https://www.pcgamesn.com/valheim/1-0-review",
+      "tier": "news",
+      "text": "📰 Обзор Valheim 1.0 — Глубокий Север великолепен, если вы справитесь с путешествием\nИсточник: PCGamesN\n\nhttps://www.pcgamesn.com/valheim/1-0-review",
+      "member_ids": [
+        "news:https://www.pcgamesn.com/valheim/1-0-review"
+      ],
+      "added_at": "2026-09-08T14:53:59.081379+00:00"
     }
   ],
   "queued_ids": [
+    "news:https://www.pcgamer.com/games/rpg/if-youre-designing-an-rpg-you-have-to-go-back-to-the-source-the-post-apocalyptic-rpg-entropy-takes-notes-from-fallout-and-a-long-abandoned-warhammer-spinoff/",
+    "news:https://www.pcgamer.com/games/final-fantasy/square-enix-wants-final-fantasy-7-to-be-an-ip-with-an-ever-evolving-future-which-is-strange-to-say-about-a-franchise-thats-already-ever-evolving/",
+    "news:https://www.pcgamesn.com/roblox/build-a-golem-codes",
+    "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/",
+    "news:https://www.pcgamer.com/games/action/there-is-absolutely-no-generative-ai-in-space-marine-3-promises-saber-interactive-executive/",
+    "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
+    "news:https://www.rockpapershotgun.com/its-still-very-much-possible-to-make-good-skyrim-mods-without-any-use-of-ai-in-2026-declares-the-maker-of-a-new-dlc-sized-black-marsh-expansion",
+    "news:https://www.pcgamesn.com/roblox/last-stop-codes",
+    "news:https://www.pcgamer.com/games/grand-theft-auto/gta-6s-criminal-profile-system-sounds-pretty-interesting-isnt-a-direct-copy-of-red-deads-honor-system/",
+    "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
+    "news:https://www.pcgamesn.com/valheim/bonemass-guide",
+    "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
+    "news:https://www.rockpapershotgun.com/trump-regimes-tetris-ripoff-yanked-from-white-house-website-after-tetris-company-declare-they-take-copyright-infringement-very-seriously",
+    "news:https://www.pcgamesn.com/dawnwalker/coen-baldurs-gate-3-astarion-interview",
+    "news:https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/",
+    "news:https://www.rockpapershotgun.com/new-horror-game-the-well-is-not-empty-combines-photophobic-monsters-with-timer-light-switches-and-a-lot-of-frenzied-digging",
+    "news:https://www.pcgamer.com/software/ai/jensen-huang-says-100-000-nvidia-gpus-were-used-to-train-openais-latest-model-gpt-6-astra-and-theres-already-plans-to-bring-quadruple-that-amount-of-hardware-online/",
+    "news:https://www.pcgamer.com/hardware/controllers/steelseries-throws-everything-but-the-kitchen-sink-in-the-feature-list-of-its-aeon-pro-controller/",
+    "news:https://www.pcgamesn.com/roblox/journey-to-the-watchtower-codes",
+    "news:https://www.pcgamer.com/games/survival-crafting/valheim-review/",
+    "news:https://www.pcgamer.com/hardware/controllers/scuf-omega-review/",
+    "news:https://www.pcgamesn.com/valheim/sequel-interview",
+    "news:https://www.pcgamesn.com/valheim/seeds-best",
+    "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
+    "news:https://www.pcgamer.com/games/sim/i-never-thought-a-fishing-sim-could-be-this-fun-but-how-to-fish-proves-me-wrong-with-its-ridiculous-physics-killer-spider-crabs-and-classic-co-op-chaos/",
+    "news:https://www.pcgamesn.com/marvel-rivals/loki-removed",
+    "news:https://www.pcgamer.com/games/action/18-years-after-metal-gear-solid-4-first-launched-a-modder-has-shown-off-its-first-modded-map-mgs3s-groznyj-grad/",
+    "news:https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-dlc-gamescom-preview",
+    "news:https://www.rockpapershotgun.com/material-uncertainty-hangs-over-the-future-of-life-is-strange-developers-dont-nod-beyond-january-2027-as-negotiations-over-potential-layoffs-begin",
+    "news:https://www.rockpapershotgun.com/this-week-in-pc-games-wardogs-shroom-and-gloom-a-heist-game-from-the-king-of-dragon-pass-creators-and-a-bullet-time-fps-inspired-by-fear",
+    "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
+    "news:https://www.pcgamer.com/games/horror/the-halloween-game-has-a-sex-minigame-in-it-except-no-it-doesnt-because-it-was-apparently-removed/",
+    "news:https://www.pcgamesn.com/valheim/lox-tame-breed-ride-saddle",
+    "news:https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/",
+    "news:https://www.pcgamesn.com/mortal-shell-2/update-adaptive-difficulty",
+    "news:https://www.pcgamer.com/hardware/chinese-memory-makers-have-reportedly-stocked-up-on-enough-western-duv-machines-for-the-next-three-years-of-expansion/",
+    "news:https://www.rockpapershotgun.com/we-believe-in-the-power-of-connection-donald-trump-tetris-parody-game-rouses-the-mildly-worded-wrath-of-the-tetris-company",
+    "news:https://www.pcgamer.com/games/mmo/riot-mmos-future-is-incredibly-bright-despite-co-founder-likening-its-development-to-the-grail-many-a-brave-knight-are-going-to-die/",
     "news:https://www.pcgamesn.com/roblox/military-army-tycoon-codes",
+    "news:https://www.pcgamesn.com/valheim/1-0-review",
+    "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
+    "news:https://www.pcgamer.com/games/the-elder-scrolls/former-skyrim-co-lead-says-bethesda-making-starfield-instead-of-tes6-came-out-of-nowhere-it-was-very-much-guess-what-team-were-making-this-space-game/",
     "news:https://www.pcgamesn.com/halloween-the-game/sex-minigame-removed",
+    "news:https://www.pcgamer.com/gaming-industry/saber-cco-tim-willits-is-still-bullish-on-ai-but-concerned-about-its-environmental-impact-elon-wants-to-put-servers-in-space-that-could-be-the-answer-right/",
+    "news:https://www.pcgamesn.com/valheim/iron-how-to-get-iron-scraps",
+    "news:https://www.pcgamer.com/hardware/graphics-cards/new-dlss-5-mod-offloads-neural-rendering-to-a-second-card-massively-cutting-the-ai-filters-performance-hit/",
+    "news:https://www.pcgamesn.com/roblox/the-veil-codes",
+    "news:https://www.pcgamesn.com/2xko/marc-merrill-pax-interview-not-mistake",
+    "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
+    "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
+    "news:https://www.pcgamer.com/hardware/vr-hardware/valve-appears-to-implementing-a-reservation-system-for-the-steam-frame-and-we-all-know-how-well-that-worked-last-time/",
+    "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
+    "news:https://www.pcgamer.com/hardware/big-chipmakers-are-already-committed-to-using-asmls-next-generation-production-technology-by-as-soon-as-2028/",
+    "news:https://www.rockpapershotgun.com/youll-be-able-to-engage-in-these-high-stakes-arms-races-civilizations-arc-of-tomorrow-update-is-trying-to-make-the-threat-of-nuclear-apocalypse-more-interesting",
+    "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
+    "news:https://www.pcgamesn.com/nodusfall/monster-hunter-meets-elden-ring-gamescom",
+    "news:https://www.pcgamer.com/games/action/capcom-expresses-continued-interest-in-re-activating-ips-as-the-first-new-onimusha-game-in-20-years-surpasses-1-million-sales-on-launch-day/",
+    "news:https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/",
+    "news:https://www.pcgamer.com/gaming-industry/the-tetris-company-confirms-it-had-nothing-to-do-with-the-white-houses-racist-rip-off-we-believe-in-the-power-of-connection-and-bringing-people-together-not-dividing-them/",
+    "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
+    "news:https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-proves-the-parry-formula-is-far-from-stale-you-just-need-to-get-freaky-with-it/",
+    "news:https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-player-count",
+    "news:https://www.pcgamer.com/hardware/processors/sources-say-another-10-percent-price-increase-for-intel-cpus-is-on-the-way-and-it-could-be-here-as-soon-as-october/",
+    "news:https://www.rockpapershotgun.com/20-players-is-the-sweet-spot-guild-wars-3s-action-game-combat-is-a-first-for-mmos-but-it-doesnt-work-at-traditional-raid-scale",
     "news:https://www.pcgamer.com/games/rpg/persona-1-and-2-remakes-are-something-atlus-will-probably-eventually-do-which-is-great-but-the-ps2-era-shin-megami-tensei-games-are-sitting-right-there/",
     "news:https://www.pcgamer.com/software/ai/openai-publicly-acknowledges-the-german-wiki-incident-weeks-after-first-finding-out-about-it/",
-    "news:https://www.pcgamer.com/games/grand-theft-auto/gta-6s-criminal-profile-system-sounds-pretty-interesting-isnt-a-direct-copy-of-red-deads-honor-system/",
-    "news:https://www.pcgamer.com/games/action/18-years-after-metal-gear-solid-4-first-launched-a-modder-has-shown-off-its-first-modded-map-mgs3s-groznyj-grad/",
-    "news:https://www.pcgamesn.com/valheim/bonemass-guide",
-    "news:https://www.pcgamer.com/gaming-industry/the-tetris-company-confirms-it-had-nothing-to-do-with-the-white-houses-racist-rip-off-we-believe-in-the-power-of-connection-and-bringing-people-together-not-dividing-them/",
-    "news:https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-player-count",
-    "news:https://www.pcgamer.com/hardware/vr-hardware/valve-appears-to-implementing-a-reservation-system-for-the-steam-frame-and-we-all-know-how-well-that-worked-last-time/",
-    "news:https://www.pcgamer.com/games/strategy/civilization-7-will-finally-enter-the-atomic-age-in-2027-via-a-free-update-firaxis-says-will-be-even-bigger-in-scope-than-last-years-test-of-time/",
     "news:https://www.pcgamer.com/games/do-you-ever-listen-to-videogame-music-in-your-day-to-day-life/",
-    "news:https://www.pcgamer.com/hardware/big-chipmakers-are-already-committed-to-using-asmls-next-generation-production-technology-by-as-soon-as-2028/",
-    "news:https://www.pcgamer.com/games/horror/heres-10-more-minutes-of-the-most-interesting-game-shown-at-this-years-opening-night-live/",
-    "news:https://www.pcgamer.com/games/fps/blending-deus-ex-with-escape-from-butcher-bay-deficit-is-one-of-the-best-feeling-indie-immersive-sims-ive-played-even-if-the-stealth-system-needs-serious-work/",
-    "news:https://www.rockpapershotgun.com/combat-and-socially-agonised-teens-impress-in-persona-4-revival-the-rpg-that-series-director-kazuhisa-wada-feels-a-duty-to-make",
-    "news:https://www.rockpapershotgun.com/new-horror-game-the-well-is-not-empty-combines-photophobic-monsters-with-timer-light-switches-and-a-lot-of-frenzied-digging",
-    "news:https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-dlc-gamescom-preview",
-    "news:https://www.pcgamer.com/games/action/peak-studio-aggro-crab-is-publishing-a-sick-looking-platformer-about-a-blue-collar-guy-doing-dirty-work-on-an-alien-world/",
-    "news:https://www.pcgamesn.com/roblox/search-for-the-needle-codes",
-    "news:https://www.pcgamesn.com/world-of-warcraft/curse-of-ulatek-interview-road-to-blizzcon",
-    "news:https://www.pcgamer.com/games/rpg/if-youre-designing-an-rpg-you-have-to-go-back-to-the-source-the-post-apocalyptic-rpg-entropy-takes-notes-from-fallout-and-a-long-abandoned-warhammer-spinoff/",
-    "news:https://www.pcgamer.com/hardware/controllers/scuf-omega-review/",
-    "news:https://www.pcgamesn.com/roblox/the-veil-codes",
-    "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
-    "news:https://www.pcgamer.com/gaming-industry/saber-cco-tim-willits-is-still-bullish-on-ai-but-concerned-about-its-environmental-impact-elon-wants-to-put-servers-in-space-that-could-be-the-answer-right/",
-    "news:https://www.pcgamesn.com/roblox/last-stop-codes",
-    "news:https://www.pcgamer.com/games/horror/the-halloween-game-has-a-sex-minigame-in-it-except-no-it-doesnt-because-it-was-apparently-removed/",
-    "news:https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-proves-the-parry-formula-is-far-from-stale-you-just-need-to-get-freaky-with-it/",
-    "news:https://www.pcgamesn.com/valheim/iron-how-to-get-iron-scraps",
-    "news:https://www.pcgamesn.com/2xko/marc-merrill-pax-interview-not-mistake",
-    "news:https://www.rockpapershotgun.com/its-still-very-much-possible-to-make-good-skyrim-mods-without-any-use-of-ai-in-2026-declares-the-maker-of-a-new-dlc-sized-black-marsh-expansion",
-    "news:https://www.pcgamesn.com/mortal-shell-2/update-adaptive-difficulty",
     "news:https://www.pcgamer.com/games/rpg/a-hobby-dev-built-a-free-3d-galaxy-map-for-warhammer-40k-that-loads-like-lightning-in-your-browser/",
+    "news:https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
+    "news:https://www.rockpapershotgun.com/combat-and-socially-agonised-teens-impress-in-persona-4-revival-the-rpg-that-series-director-kazuhisa-wada-feels-a-duty-to-make",
     "news:https://www.pcgamer.com/hardware/graphics-cards/once-again-it-is-genuinely-cheaper-for-me-to-fly-to-pax-west-and-track-down-nvidias-geforce-evangelist-rather-than-buy-the-rtx-5090-anywhere-else/",
-    "news:https://www.pcgamer.com/software/ai/jensen-huang-says-100-000-nvidia-gpus-were-used-to-train-openais-latest-model-gpt-6-astra-and-theres-already-plans-to-bring-quadruple-that-amount-of-hardware-online/",
-    "news:https://www.pcgamesn.com/roblox/journey-to-the-watchtower-codes",
-    "news:https://www.pcgamer.com/games/mmo/riot-mmos-future-is-incredibly-bright-despite-co-founder-likening-its-development-to-the-grail-many-a-brave-knight-are-going-to-die/",
-    "news:https://www.pcgamesn.com/valheim/sequel-interview",
-    "news:https://www.pcgamer.com/games/rpg/ex-bioware-designer-says-doom-and-gloom-about-the-next-mass-effect-is-overstated-i-think-that-they-can-do-it/",
-    "news:https://www.pcgamesn.com/dawnwalker/coen-baldurs-gate-3-astarion-interview",
-    "news:https://www.pcgamesn.com/valheim/seeds-best",
-    "news:https://www.pcgamesn.com/nodusfall/monster-hunter-meets-elden-ring-gamescom",
-    "news:https://www.rockpapershotgun.com/laser-guy-is-a-twin-stick-anti-shooter-about-a-stressed-out-game-developer-who-cant-stop-shooting-laser-beams-from-his-eyes",
-    "news:https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/",
-    "news:https://www.pcgamer.com/games/final-fantasy/square-enix-wants-final-fantasy-7-to-be-an-ip-with-an-ever-evolving-future-which-is-strange-to-say-about-a-franchise-thats-already-ever-evolving/",
-    "news:https://www.pcgamer.com/games/action/capcom-expresses-continued-interest-in-re-activating-ips-as-the-first-new-onimusha-game-in-20-years-surpasses-1-million-sales-on-launch-day/",
-    "news:https://www.pcgamesn.com/ready-or-not/update-mission-editor",
-    "news:https://www.rockpapershotgun.com/youll-be-able-to-engage-in-these-high-stakes-arms-races-civilizations-arc-of-tomorrow-update-is-trying-to-make-the-threat-of-nuclear-apocalypse-more-interesting",
-    "news:https://www.pcgamesn.com/valheim/lox-tame-breed-ride-saddle",
-    "news:https://www.pcgamer.com/hardware/graphics-cards/new-dlss-5-mod-offloads-neural-rendering-to-a-second-card-massively-cutting-the-ai-filters-performance-hit/",
-    "news:https://www.pcgamer.com/games/action/there-is-absolutely-no-generative-ai-in-space-marine-3-promises-saber-interactive-executive/",
-    "news:https://www.rockpapershotgun.com/double-fines-first-game-post-xbox-split-is-a-goofy-bus-driving-sim-all-about-slapping-passengers-who-dont-follow-the-rules-and-doing-a-good-job",
-    "news:https://www.pcgamer.com/games/sim/i-never-thought-a-fishing-sim-could-be-this-fun-but-how-to-fish-proves-me-wrong-with-its-ridiculous-physics-killer-spider-crabs-and-classic-co-op-chaos/",
-    "news:https://www.pcgamesn.com/league-of-legends/riot-mmo-the-grail",
-    "news:https://www.pcgamer.com/gaming-industry/steam-week-in-review-54-idle-games-released-on-steam-last-week-and-many-look-eerily-similar/",
-    "news:https://www.rockpapershotgun.com/deliver-packages-in-foresty-mountains-and-avoid-thieving-boars-in-the-death-stranding-adjacent-and-quite-calm-looking-pinetrail",
-    "news:https://www.rockpapershotgun.com/this-week-in-pc-games-wardogs-shroom-and-gloom-a-heist-game-from-the-king-of-dragon-pass-creators-and-a-bullet-time-fps-inspired-by-fear",
-    "news:https://www.pcgamer.com/games/survival-crafting/gsc-game-world-says-theres-a-reason-it-didnt-give-stalker-2-more-time-in-the-oven-to-make-something-better-you-need-to-receive-feedback-and-this-feedback-should-be-fresh/",
-    "news:https://www.rockpapershotgun.com/the-esrb-wouldnt-let-valve-release-the-cinematic-trailer-for-left-4-dead-2-so-what-did-they-do-they-leaked-it-obviously",
-    "news:https://www.rockpapershotgun.com/we-believe-in-the-power-of-connection-donald-trump-tetris-parody-game-rouses-the-mildly-worded-wrath-of-the-tetris-company"
+    "news:https://www.pcgamesn.com/roblox/search-for-the-needle-codes"
   ],
   "last_published": {
     "deal": "2026-09-08T01:24:39.269414+00:00",
